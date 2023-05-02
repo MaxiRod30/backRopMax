@@ -1,0 +1,11 @@
+{
+  "name": "backropmax",
+  "version": "1.0.0",
+  "description": "Curso Coderhouse Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximiliano Rodriguez",
+  "license": "ISC"
+}
