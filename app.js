@@ -13,7 +13,7 @@ class ProductManager{
     }
 
     isInProducts(param){
-        return this.#products.some(e => e === param);
+        return this.#products.some(e => e.code === param);
     }
 
     addProduct(title, description, price, thumbnail, code, stock){
@@ -51,4 +51,3 @@ class ProductManager{
         return this.#products.find(e => e.id === id) || "Not Found"
     }
 }
-
