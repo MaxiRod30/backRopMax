@@ -149,7 +149,12 @@ let p = new ProductManager()
     console.log("***************************")
     console.log( p.getProducts())
     console.log("***************************")
+    
+    console.log(p.getProductById(2))
+    console.log(p.getProductById(3))
+    console.log(p.getProductById(40))
 
+    console.log("***************************")
     p.updateProduct(1,"title","Producto100")
     p.updateProduct(2,"title","Producto200")
     p.updateProduct(2,"price",200000)
