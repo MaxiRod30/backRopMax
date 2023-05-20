@@ -5,8 +5,8 @@ class ProductManager{
     #path
     #codification
 
-    constructor() {
-        this.#path = "info.json";
+    constructor(path) {
+        this.#path = path ;
         this.#codification = "utf-8";
         this.#initDB();
     }
@@ -137,7 +137,7 @@ class ProductManager{
     }
 }
 
-let p = new ProductManager()
+let p = new ProductManager("info.json")
 
     console.log( p.getProducts())
     console.log("***************************")
