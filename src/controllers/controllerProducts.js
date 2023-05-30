@@ -27,6 +27,9 @@ export const productsGetId = (req = request, res = response) => {
 
     const productos = new ProductManager("data.json");
     data = productos.getProductById(Number(pid));
-
-    res.json(data);
+    if(data != "Not Found"){
+        res.json(data);
+    }else{
+        res.status(404).json({error: "Producto no encontrado!"});
+    }
 }
