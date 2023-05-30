@@ -23,7 +23,6 @@ export const productsGet = (req = request, res = response) => {
 export const productsGetId = (req = request, res = response) => {
 
     const pid = req.params.pid;
-    console.log(pid)
     let data;
 
     const productos = new ProductManager("data.json");
