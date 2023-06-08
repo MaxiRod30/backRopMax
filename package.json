@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Curso Coderhouse Backend",
   "main": "app.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -11,6 +11,7 @@
   "author": "Maximiliano Rodriguez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1"
   }
 }

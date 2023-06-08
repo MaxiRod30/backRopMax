@@ -48,12 +48,12 @@ export default class ProductManager{
         return Object.values(params).some(e => e === undefined);
     }
 
-    #isInProducts(param){
+    isInProducts(param){
         const data = this.getProducts();
         return data.some(e => e.code === param);
     }
 
-    addProduct(title, description, price, thumbnail, code, stock){
+    addProduct(title, description, price, thumbnail, code, stock, category, status){
         const productos = this.getProducts()
 
         let maxID = 0
@@ -68,19 +68,21 @@ export default class ProductManager{
             price,
             thumbnail,
             code,
-            stock
+            stock,
+            category,
+            status
         }
         if(!this.#validarParams(product))
         {
             
-            if(!this.#isInProducts(product.code))
+            if(!this.isInProducts(product.code))
             {
                 productos.push(product)
                 this.#writeFile(this.#path,productos)
                 console.log("Se agrego producto")
                 
             }else{
-                console.log("Esta repetido el code")
+                return undefined
             }
         }else{
             console.log("Faltan parametros")
@@ -109,7 +111,6 @@ export default class ProductManager{
         if(!(campo in obj))
             return console.log("Update: Error en el campo");
 
-
         if(!value)
             return console.log("Update: Error en el valor");
         
@@ -119,6 +120,7 @@ export default class ProductManager{
             return e 
         })
         this.#writeFile(this.#path,prod)
+        return prod
     }
 
     deleteProduct(id){
@@ -129,9 +131,12 @@ export default class ProductManager{
             productos.splice(index, 1);
             this.#writeFile(this.#path,productos)
             console.log(`Delete: Producto borrado ID:${index+1}`)
-        }else{
-            return console.log("Delete: No se encontro producto")
+            return true
         }
+             
+        console.log("Delete: No se encontro producto")
+        return false
+        
     }
 }
 
