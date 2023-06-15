@@ -1,6 +1,5 @@
 const socket = io();
 
-// Actualizar lista
 function updateProducts(products) {
   const ul = document.querySelector("ul");
   ul.innerHTML = '';
@@ -13,7 +12,6 @@ function updateProducts(products) {
   });
 };
 
-// Recibir productos
 socket.on("products", products => {
   updateProducts(products);
 });
