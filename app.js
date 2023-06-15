@@ -1,6 +1,6 @@
 
- import  Server from "./src/models/server.js";
+ import  MyServer from "./src/models/server.js";
 
- const server = new Server();
+ const server = new MyServer();
 
  server.listen();
