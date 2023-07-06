@@ -1,6 +1,8 @@
 
- import  MyServer from "./src/models/server.js";
+import 'dotenv/config.js'
 
- const server = new MyServer();
+import  MyServer from "./src/dao/server/models/server.js";
 
- server.listen();
+const server = new MyServer();
+
+server.listen();

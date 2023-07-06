@@ -1,8 +1,11 @@
 import { response, request } from 'express';
+import ProductsManager from "../dao/mongo/manager/productManager.js";
 
-import products from "../../products.json" assert { type: "json" };
+const productsManager = new ProductsManager();
 
-export const viewsGet = (req = request, res = response) => {
+
+export const viewsGet = async (req = request, res = response) => {
+	const products = await productsManager.getProducts()
 	res.render("home", {
 		style: "styles.css",
 		documentTitle: "Home",
@@ -16,4 +19,18 @@ export const viewsGetRealTimeProducts = (req = request, res = response) => {
 		style: "styles.css",
 		documentTitle: "Socket",
 	});
+}
+
+export const viewsGetProducts = async(req = request, res = response) => {
+	
+	const products = await productsManager.getProducts()
+
+	res.render("products", {
+		style: "styles.css",
+		products
+	});
+}
+
+export const viewChat = (req = request, res = response) => {
+	res.render("chat", { });
 }

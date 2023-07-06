@@ -1,12 +1,14 @@
 import express from 'express';
-import routerProducts from "../routes/routeProducts.js"
-import routerCarts from "../routes/routeCarts.js"
-import routerViews from "../routes/routeViews.js"
+import routerProducts from "../../../routes/routeProducts.js"
+import routerCarts from "../../../routes/routeCarts.js"
+import routerViews from "../../../routes/routeViews.js"
 import handlebars from "express-handlebars";
-import __dirname from "../util.js";
+import __dirname from "../../../util.js";
 import { createServer } from "http";
 import {Server} from "socket.io";
-import { socketController } from "../controllers/sockets/controllerSockets.js"
+import { socketController } from "../../../controllers/sockets/controllerSockets.js"
+import { dbConnetion } from '../../mongo/config.js'
+
 
 export default class MyServer {
 
@@ -17,10 +19,13 @@ export default class MyServer {
         this.io     = new Server( this.server );
 
 
-        this.port = 8080;
+        this.port = process.env.PORT;
         this.productsPath = '/api/products';
         this.cartsPath = '/api/carts';
         this.viewsPath = '/';
+
+        //Conectar a la base de datos
+        this.conectarDB();
 
         //Handlebars
         this.handlebars();
@@ -35,6 +40,9 @@ export default class MyServer {
         this.sockets();
     }
 
+    async conectarDB(){
+        await dbConnetion();
+    }
 
     handlebars(){
 
@@ -58,7 +66,7 @@ export default class MyServer {
 
     sockets() {
 
-        this.io.on('connection', socketController );
+         this.io.on('connection', socket =>{socketController(socket, this.io)});
 
     }
 

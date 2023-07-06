@@ -1,7 +1,7 @@
 const socket = io();
 
 function updateProducts(products) {
-  const ul = document.querySelector("ul");
+  const ul = document.getElementById("listaProducts");
   ul.innerHTML = '';
 
   products.forEach(product => {

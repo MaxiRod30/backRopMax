@@ -1,8 +1,146 @@
-<div class="home-container">
-	<h1 class="home-title">Products</h1>
-	<ul class="home-list">
-		{{#each products}}
-			<li class="home-item">{{this.title}}</li>
-		{{/each}}
-	</ul>
-</div>
+    <main class="image">
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="80%" height="80%" fill="#777" />
+                    </svg>
+                    <img src="asset/img/TIA17.jpg" alt="">
+                    <div class="container">
+                        <div class="carousel-caption  text-start">
+                            <h1>TIA Portal V17.</h1>
+                            <p>TIA Portal le permite trabajar cómodamente con el servidor de proyectos TIA.
+                                Puede utilizar la funcionalidad del servidor de proyectos para trabajar con ingeniería multiusuario, puesta en marcha multiusuario e ingeniería exclusiva.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <img src="asset/img/ABB.jpg" alt="">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Bienvenido al progreso</h1>
+                            <p>En ABB, capacitamos a las personas con tecnología para impulsar la transformación de las industrias necesarias para permitir una sociedad con bajas emisiones de carbono y abordar los desafíos energéticos del mundo.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+                    <img src="asset/img/schneider.jpg" alt="">
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1 class ="texto">Innove con Schneider Electric</h1>
+                            <p class ="texto">Nuestro propósito es capacitar a todos para aprovechar al máximo nuestra energía y recursos, tendiendo puentes entre el progreso y la sostenibilidad para todos. En Schneider, llamamos a esto Life Is On.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Marketing de productos -->
+        <div >
+
+            <div class="container marketing ">
+                <div class="row">
+                <div class="col-lg-4">
+
+                    <img class="bd-placeholder-img rounded-circle"  aria-label="Placeholder: 140x140" width="140" height="140" preserveAspectRatio="xMidYMid slice" src="asset/img/simatic-s7-1500.jpg"  focusable="false" alt=""><title>S7-1500</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+                    <h3>SIMATIC S7-1500</h3>
+                    <p>El uso del controlador SIMATIC S7-1500 le brinda el máximo rendimiento y viabilidad integrada en el futuro. Puede convertir en realidad los diseños de máquinas más sofisticados gracias a la estructura modular del controlador, que brinda asistencia confiable a medida que avanza en la transformación digital.</p>
+                    <p><a class="btn btn-secondary" href="https://new.siemens.com/global/en/products/automation/systems/industrial/plc/simatic-s7-1500.html" target="_blank" >Ver detalles &raquo;</a></p>
+
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle"  aria-label="Placeholder: 140x140" width="140" height="140" preserveAspectRatio="xMidYMid slice" src="asset/img/plcabb.png"  focusable="false" alt=""><title>S7-1500</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+                    <h3>Automatización PLC con ABB</h3>
+                    <p>Los dispositivos de automatización de ABB brindan soluciones con alto rendimiento y flexibilidad para implementarse de manera efectiva en diversas industrias y aplicaciones, que incluyen agua, infraestructura de edificios, centros de datos, energía renovable, automatización de maquinaria, manejo de materiales, marina y más.</p>
+                    <p><a class="btn btn-secondary" href="https://new.abb.com/plc" target="_blank">Ver detalles &raquo;</a></p>
+
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle"  aria-label="Placeholder: 140x140" width="140" height="140" preserveAspectRatio="xMidYMid slice" src="asset/img/zelioplc.JPG" focusable="false" alt=""><title>S7-1500</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+                    <h3>Controladores Dedicados con Schneider</h3>
+                    <p>Nuestros PLC y PAC brindan tecnología de vanguardia y la aumentan con conectividad Ethernet, ciberseguridad integrada y la potencia de procesamiento necesaria para manejar el análisis de Big Data y proteger contra nuevas vulnerabilidades entre los activos industriales conectados, entre dispositivos o en la nube.</p>
+                    <p><a class="btn btn-secondary" href="https://www.se.com/ww/en/product-category/3900-plc-pac-and-dedicated-controllers" target="_blank" >Ver detalles &raquo;</a></p>
+
+                </div>
+                </div>
+            
+                <hr class="featurette-divider">
+            
+                <div class="row featurette">
+                <div class="col-md-7 ">
+                    <h2 class="featurette-heading">Aplicaciones de IA con SIMATIC S7-1500 </h2>
+                    <p class="text-sm-start">El módulo se puede integrar a la perfección en el sistema de automatización SIMATIC, lo que permite una combinación sencilla y rentable de algoritmos de IA y lógica de PLC. Así es como se pueden implementar en la máquina aplicaciones económicas y reescalables con SIMATIC basadas en inteligencia artificial, p.
+
+                        Reconocimiento inteligente de objetos de cualquier pieza de trabajo
+                        Comprobación visual de la calidad de los productos.
+                        Comprobación de calidad mediante sensores y datos de producción</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="asset/img/s71500promo.jpg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+            
+                </div>
+                </div>
+            
+                <hr class="featurette-divider">
+            
+                <div class="row featurette">
+                <div class="col-md-6 order-md-5">
+                    <h2 class="featurette-heading">Controladores lógicos programables ABB</h2><br>
+                    <p class="text-sm-start">Las gamas de PLC escalables AC500, AC500-eCo, AC500-S y AC500-XC ofrecen soluciones para aplicaciones pequeñas, medianas y de gama alta. Nuestra plataforma de PLC AC500 ofrece diferentes niveles de rendimiento y es la opción ideal para soluciones de alta disponibilidad, entornos extremos, monitoreo de condición, control de movimiento o seguridad. 
+
+                        Nuestra plataforma de PLC AC500 ofrece interoperabilidad y compatibilidad en hardware y software desde PLC compactos hasta PLC de alta gama y seguridad.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="asset/img/abbiot.jpg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+            
+                </div>
+                </div>
+            
+                <hr class="featurette-divider">
+            
+                <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Controladores lógicos Schneider</h2>
+                    <p class="text-sm-start">Nuestra amplia gama de PLC para máquinas industriales es sinónimo de innovación y ofrece una gama completa de soluciones para satisfacer sus necesidades de automatización. Desde pequeñas máquinas automatizadas hasta automatización avanzada de máquinas, nuestra sólida oferta de soluciones de automatización confiables mejora las máquinas y los procesos en todas las industrias manufactureras.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="asset/img/schneideriot.jpg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+            
+                </div>
+                </div>
+            
+                <hr class="featurette-divider">
+            
+            </div>
+        </div>
+        <!-- FOOTER -->
+		    {{> footer}}
+
+
+    </main>
+
+
