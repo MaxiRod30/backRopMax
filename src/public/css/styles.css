@@ -1,6 +1,4 @@
-body {
-	font-family: "Comfortaa", cursive;
-}
+
 
 /* Home */
 .home-container {
@@ -72,4 +70,4 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
+} 

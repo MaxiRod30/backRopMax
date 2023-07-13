@@ -1,15 +1,46 @@
 import { response, request } from 'express';
 import ProductsManager from "../dao/mongo/manager/productManager.js";
+import productModel from "../dao/mongo/models/productModels.js"
 
 const productsManager = new ProductsManager();
 
 export const productsGet = async (req = request, res = response) => {
+    
+    let filter = {};
 
-    const {limit} = req.query;
+    const {limit=10 , page=1, sort ,query, stock} = req.query;
 
-    const products = await productsManager.getProducts(limit);
 
-    res.status(200).json({ status: "ok", data: products });
+    if (query) {
+        filter = {
+          $or: [
+            { category: { $regex: query, $options: "i" } },
+            { code: { $regex: query, $options: "i" } },
+            { title: { $regex: query, $options: "i" } }
+          ],
+        };
+      }
+
+    if (stock && !isNaN(stock)) {
+        filter.stock = { $gt: Number(stock) };
+    }
+
+    const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages ,...rest } 
+    = await productModel.paginate(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
+
+    res.status(200).json({ 
+
+        status: "success", 
+        payload: docs,
+        totalPages: totalPages,
+        prevPage: prevPage,
+        nextPage: nextPage,
+        page: rest.page,
+        hasPrevPage: hasPrevPage,
+        hasNextPage: hasNextPage,
+        prevLink: hasPrevPage? `/?page=${prevPage}`: null,
+        nextLink: hasNextPage? `/?page=${nextPage}`: null
+     });
 
 }
 
@@ -43,7 +74,7 @@ export const productsPost = async(req = request , res = response) => {
             stock
         }
         
-        productsManager.createProducts(newProduct)
+        await productsManager.createProducts(newProduct)
     
         return res.status(201).json({ msg: "post API - producto agregado", data: newProduct });
     

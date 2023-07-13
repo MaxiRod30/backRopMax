@@ -21,7 +21,7 @@ export default class MyServer {
 
         this.port = process.env.PORT;
         this.productsPath = '/api/products';
-        this.cartsPath = '/api/carts';
+        this.cartsPath = '/api';
         this.viewsPath = '/';
 
         //Conectar a la base de datos
