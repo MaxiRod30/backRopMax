@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import  {viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/controllerViews.js';
+import  {viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/controllerViews.js';
 import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
 import { idCartExist,idProductExist } from '../helpers/db-validators.js'
@@ -20,5 +20,8 @@ router.get('/carts/:cid',[
 
 router.get('/chat', viewChat );
 
+router.get('/login', viewLogin );
+
+router.get('/register', viewRegister );
 
 export default router;

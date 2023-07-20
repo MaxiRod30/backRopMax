@@ -1,14 +1,16 @@
 import express from 'express';
-import routerProducts from "../../../routes/routeProducts.js"
-import routerCarts from "../../../routes/routeCarts.js"
-import routerViews from "../../../routes/routeViews.js"
+import routerProducts from "../../routes/routeProducts.js"
+import routerCarts from "../../routes/routeCarts.js"
+import routerViews from "../../routes/routeViews.js"
+import routerSessions from "../../routes/routeSessions.js"
 import handlebars from "express-handlebars";
-import __dirname from "../../../util.js";
+import __dirname from "../../util.js";
 import { createServer } from "http";
 import {Server} from "socket.io";
-import { socketController } from "../../../controllers/sockets/controllerSockets.js"
-import { dbConnetion } from '../../mongo/config.js'
-
+import { socketController } from "../../controllers/sockets/controllerSockets.js"
+import { dbConnetion } from '../../dao/mongo/config.js'
+import session from "express-session";
+import MongoStore from "connect-mongo";
 
 export default class MyServer {
 
@@ -23,6 +25,7 @@ export default class MyServer {
         this.productsPath = '/api/products';
         this.cartsPath = '/api';
         this.viewsPath = '/';
+        this.sessionsPath = '/api/sessions';
 
         //Conectar a la base de datos
         this.conectarDB();
@@ -32,12 +35,28 @@ export default class MyServer {
 
         //Middlewares
         this.middlewares();
+        
+        // Session
+        this.sesion();
 
         // Rutas de mi aplicación
         this.routes();
 
         // Sockets
         this.sockets();
+
+    }
+
+    sesion(){
+        this.app.use(session({
+            store:  MongoStore.create({
+                mongoUrl: process.env.MONGODB_ATLAS,
+            ttl: 3600
+            }),
+            secret: "mAx%17Zrt2a",
+            resave: false,
+            saveUninitialized: false,
+        }));
     }
 
     async conectarDB(){
@@ -62,6 +81,7 @@ export default class MyServer {
         this.app.use(this.productsPath, routerProducts);
         this.app.use(this.cartsPath, routerCarts);
         this.app.use(this.viewsPath, routerViews);
+        this.app.use(this.sessionsPath, routerSessions);
     }
 
     sockets() {
