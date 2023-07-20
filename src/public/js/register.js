@@ -5,7 +5,6 @@ registerForm.addEventListener("submit", async (event) => {
 	const data = new FormData(registerForm);
 	const obj = {};
 	data.forEach((value, key) => (obj[key] = value))
-	alert(JSON.stringify(obj))
 	await fetch("/api/sessions/register", {
 		method: "POST",
 		body: JSON.stringify(obj),
