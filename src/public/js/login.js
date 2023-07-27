@@ -12,7 +12,16 @@ loginForm.addEventListener("submit", async (e) => {
 		headers: {
 			"Content-Type": "application/json",
 		},
-	}).then(() => {
-		window.location.replace("/");
-	}).catch(err => {return `Catch error: ${err}`});
+	}).then((res) => {
+		if (res.status == 401) {
+			return Swal.fire({
+				icon: 'error',
+				title: 'Oops...',
+				text: 'Datos incorrectos!'
+			})
+		}
+		window.location.replace("/products/?page=1");
+	}).catch(err => {
+		return `Catch error: ${err}`
+	});
 });

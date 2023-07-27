@@ -168,4 +168,16 @@ export const viewRegister = async (req = request, res = response) => {
 	} catch (error) {
 		return res.status(500).json({ error: err.message });
 	}
+	
 };
+
+export const viewsFailLogin = async (req = request, res = response) => {
+	try {
+		return res.status(200).render("faillogin", {
+			documentTitle: "FailLogin",
+			msg:"Fallo al logiarse"
+		});
+	} catch (err) {
+		return res.status(500).json({ error: err.message });
+	};
+}

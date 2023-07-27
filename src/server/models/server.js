@@ -6,19 +6,21 @@ import routerSessions from "../../routes/routeSessions.js"
 import handlebars from "express-handlebars";
 import __dirname from "../../util.js";
 import { createServer } from "http";
-import {Server} from "socket.io";
+import { Server } from "socket.io";
 import { socketController } from "../../controllers/sockets/controllerSockets.js"
 import { dbConnetion } from '../../dao/mongo/config.js'
 import session from "express-session";
 import MongoStore from "connect-mongo";
+import passport from 'passport';
+import inilitializePassport from '../../middlewares/passportConfig.js';
 
 export default class MyServer {
 
     constructor() {
-        this.app  = express();
+        this.app = express();
         this.app.use(express.urlencoded({ extended: true }));
-        this.server = createServer( this.app );
-        this.io     = new Server( this.server );
+        this.server = createServer(this.app);
+        this.io = new Server(this.server);
 
 
         this.port = process.env.PORT;
@@ -32,12 +34,12 @@ export default class MyServer {
 
         //Handlebars
         this.handlebars();
-
-        //Middlewares
-        this.middlewares();
         
         // Session
         this.sesion();
+
+        //Middlewares
+        this.middlewares();
 
         // Rutas de mi aplicación
         this.routes();
@@ -47,11 +49,11 @@ export default class MyServer {
 
     }
 
-    sesion(){
+    sesion() {
         this.app.use(session({
-            store:  MongoStore.create({
+            store: MongoStore.create({
                 mongoUrl: process.env.MONGODB_ATLAS,
-            ttl: 3600
+                ttl: 3600
             }),
             secret: "mAx%17Zrt2a",
             resave: false,
@@ -59,11 +61,11 @@ export default class MyServer {
         }));
     }
 
-    async conectarDB(){
+    async conectarDB() {
         await dbConnetion();
     }
 
-    handlebars(){
+    handlebars() {
 
         this.app.engine("handlebars", handlebars.engine());
         this.app.set("views", __dirname + "/views");
@@ -72,12 +74,17 @@ export default class MyServer {
 
     }
 
-    middlewares(){
+    middlewares() {
         this.app.use(express.json());
+
+        //Passport
+        inilitializePassport();
+        this.app.use(passport.initialize())
+        this.app.use(passport.session())
     }
 
     routes() {
-        
+
         this.app.use(this.productsPath, routerProducts);
         this.app.use(this.cartsPath, routerCarts);
         this.app.use(this.viewsPath, routerViews);
@@ -86,13 +93,13 @@ export default class MyServer {
 
     sockets() {
 
-         this.io.on('connection', socket =>{socketController(socket, this.io)});
+        this.io.on('connection', socket => { socketController(socket, this.io) });
 
     }
 
     listen() {
-        this.server.listen( this.port, () => {
-            console.log('Servidor corriendo en puerto', this.port );
+        this.server.listen(this.port, () => {
+            console.log('Servidor corriendo en puerto', this.port);
         });
     }
 

@@ -15,7 +15,6 @@ registerForm.addEventListener("submit", async (event) => {
 		if (res.status === 401) {
 			alert(`Email already exist`);
 		} else {
-			alert(`User created`);
 			window.location.replace("/");
 		};
 	}).catch(err => {return `Catch error: ${err}`});

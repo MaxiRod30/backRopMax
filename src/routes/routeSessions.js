@@ -1,40 +1,29 @@
 import { Router } from "express";
-import { userModel } from "../dao/mongo/models/userModels.js";
-
+import passport from "passport";
+import { validarCampos } from "../middlewares/validarCampos.js";
+import passportCall from "../helpers/helpersPassportCall.js";
 
 const router = Router();
 
-router.post("/login", async (req, res) => {
-	try {
-		const {email, password} = req.body;
-		const user = await userModel.findOne({email,password});
+router.post("/login",[ passportCall("login"),passport.authenticate("login") ], async (req, res) => {
 
-		if(!user) return res.status(400).send({status:"error",error:"Usuario o contraseña incorrectas"});
-		req.session.user = {
-			name: `${user.first_name} ${user.last_name}`,
-			email: user.email
-		}
-		
-		return res.status(200).send({status: 'success', payload: 'Usuario Logiado'});
+	if (!req.user) return res.status(400).send({ status: "error", error: "Invalid credentials" })
 
-	} catch (err) {
-		return res.status(500).json({ error: err.message });
-	};
+	req.session.user = req.user
+
+	return res.status(200).send({ status: 'success', payload: req.user });
+
 });
 
-router.post("/register", async (req, res) => {
-	try {
-			const result = await userModel.create(req.body);
-			return res.status(200).send({status: 'success', payload: result});
-	
-		} catch (err) {
-		return res.status(500).json({ status: 'error', payload: err.message });
-	};
+router.post("/register", passport.authenticate("register", { failureRedirect: "/failregister" }), async (req, res) => {
+
+	res.status(200).send({ status: 'success', message: "User created" });
+
 });
 
 router.post("/logout", (req, res) => {
 	try {
-		if(!req.session) return res.status(500).send({ status: `Logout error`, payload: err });
+		if (!req.session) return res.status(500).send({ status: `Logout error`, payload: err });
 
 		req.session.destroy((err) => {
 			if (!err) {
@@ -47,5 +36,15 @@ router.post("/logout", (req, res) => {
 		return res.status(500).json({ error: err.message });
 	};
 });
+
+router.get("/github", passport.authenticate("github"), async (req, res) => { });
+
+router.get("/githubcallback",passport.authenticate("github"),
+	async (req, res) => {
+		req.session.user = req.user;
+		res.redirect("/products/?page=1");
+	}
+);
+
 
 export default router;
