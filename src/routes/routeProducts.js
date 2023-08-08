@@ -5,9 +5,10 @@ import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
 import { codeProductExist,idProductExist }from '../helpers/db-validators.js'
 
+
 const router = Router();
 
-router.get('/',  productsGet );
+router.get('/', productsGet );
 
 router.get('/:pid',[
     check('pid','No es un ID valido').isMongoId(),

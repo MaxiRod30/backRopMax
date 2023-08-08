@@ -20,8 +20,10 @@ loginForm.addEventListener("submit", async (e) => {
 				text: 'Datos incorrectos!'
 			})
 		}
+
 		window.location.replace("/products/?page=1");
 	}).catch(err => {
 		return `Catch error: ${err}`
 	});
+
 });

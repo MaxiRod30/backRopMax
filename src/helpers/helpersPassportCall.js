@@ -1,6 +1,6 @@
 import passport from "passport";
 
-const passportCall = (strategy) => {
+export const passportCall = (strategy) => {
   return async (req, res, next) => {
     passport.authenticate(strategy, (err, user, info) => {
       if (err) return next(err);
@@ -14,4 +14,15 @@ const passportCall = (strategy) => {
   };
 };
 
-export default passportCall;
+export const passportCallLogin = (strategy) => {
+  return async (req, res, next) => {
+    passport.authenticate(strategy, (err, user, info) => {
+      if (err) return next(err);
+      if (!user){
+        return  res.redirect("/login")
+      }
+      req.user = user;
+      next();
+    })(req, res, next);
+  };
+};

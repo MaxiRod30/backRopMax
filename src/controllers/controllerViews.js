@@ -8,17 +8,8 @@ const cartsManager = new CartsManager();
 
 export const viewsGet = async (req = request, res = response) => {
 	try {
-
-
-		if(!req.session.user){
-			return res.status(200).render("login", {
-				style: "styles.css",
-				documentTitle: "Login",
-			});
-		};
-
 		return res.status(200).render("home", {
-			user: req.session.user,
+			user: req.user.user,
 			style: "styles.css",
 			documentTitle: "Home",
 		});
@@ -29,12 +20,6 @@ export const viewsGet = async (req = request, res = response) => {
 
 export const viewsGetRealTimeProducts = (req = request, res = response) => {
 	try {
-		if(!req.session.user){
-			return res.status(200).render("login", {
-				style: "styles.css",
-				documentTitle: "Login",
-			});
-		};
 
 		return res.render("realTimeProducts", {
 			style: "styles.css",
@@ -49,13 +34,7 @@ export const viewsGetRealTimeProducts = (req = request, res = response) => {
 export const viewsGetProducts = async(req = request, res = response) => {
 	
 	try {
-		if(!req.session.user){
-			return res.status(200).render("login", {
-				style: "styles.css",
-				documentTitle: "Login",
-			});
-		};
-		
+
 		let filter = {};
 
 		const {limit=2 , page=1, sort ,query, stock} = req.query;
@@ -100,14 +79,9 @@ export const viewsGetProducts = async(req = request, res = response) => {
 
 export const viewsGetProductsInCart = async(req = request, res = response) => {
 	try {
-		if(!req.session.user){
-			return res.status(200).render("login", {
-				style: "styles.css",
-				documentTitle: "Login",
-			});
-		};
-
-		const cartId = req.params.cid;
+		
+		const cartId = req.user.user.cart;
+		
 		const productsInCart = await cartsManager.getCartByIdviews(cartId)
 	
 		const products = productsInCart.products
@@ -126,12 +100,6 @@ export const viewsGetProductsInCart = async(req = request, res = response) => {
 export const viewChat = (req = request, res = response) => {
 	
 	try {
-		if(!req.session.user){
-			return res.status(200).render("login", {
-				style: "styles.css",
-				documentTitle: "Login",
-			});
-		};
 		return res.render("chat", { });
 		
 	} catch (err) {

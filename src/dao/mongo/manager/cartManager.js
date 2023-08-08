@@ -17,8 +17,9 @@ export default class CartsManager {
       return cartModel.findById(id).populate('products.idproduct').lean();
     };
 
-    createCart = (cart) => {
-      return cartModel.create(cart);
+    createCart = async(cart) => {
+       const cartNew = await cartModel.create(cart)
+       return cartNew
     };
   
     addProductInCart = async (idCart,idProduct)=>{

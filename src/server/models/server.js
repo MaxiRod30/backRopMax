@@ -13,6 +13,7 @@ import session from "express-session";
 import MongoStore from "connect-mongo";
 import passport from 'passport';
 import inilitializePassport from '../../middlewares/passportConfig.js';
+import cookieParser from "cookie-parser";
 
 export default class MyServer {
 
@@ -41,6 +42,9 @@ export default class MyServer {
         //Middlewares
         this.middlewares();
 
+        //Cookies
+        this.cookies();
+
         // Rutas de mi aplicación
         this.routes();
 
@@ -59,6 +63,12 @@ export default class MyServer {
             resave: false,
             saveUninitialized: false,
         }));
+    }
+
+    cookies() {
+
+        this.app.use(cookieParser())
+
     }
 
     async conectarDB() {

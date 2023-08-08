@@ -13,15 +13,22 @@ const userSchema = new mongoose.Schema({
 		type: String,
 		required: [true, 'El correo es obligatorio'],
 		unique: true,
-	},
+	},	
+    age: {
+        type: Number,
+        required: [true, 'La edad es obligatoria']
+    },
 	password: {
         type: String,
         required: [true, 'La contraseña es obligatoria']
     },
+    cart: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref:"carts",
+    },
 	rol: {
         type: String,
         required: true,
-        emun: ['ADMIN_ROLE', 'USER_ROLE'],
 		default: 'USER_ROLE'
     }
 });

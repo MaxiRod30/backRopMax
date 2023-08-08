@@ -1,17 +1,18 @@
 import { Router } from "express";
 import passport from "passport";
-import { validarCampos } from "../middlewares/validarCampos.js";
-import passportCall from "../helpers/helpersPassportCall.js";
+import { generateToken } from "../helpers/helpersJwt.js";
+import { passportCall } from "../helpers/helpersPassportCall.js";
 
 const router = Router();
 
-router.post("/login",[ passportCall("login"),passport.authenticate("login") ], async (req, res) => {
+router.post("/login", [passportCall("login")], async (req, res) => {
 
 	if (!req.user) return res.status(400).send({ status: "error", error: "Invalid credentials" })
 
-	req.session.user = req.user
-
-	return res.status(200).send({ status: 'success', payload: req.user });
+	const token = generateToken(req.user);
+	return res
+		.cookie("authToken", token, { maxAge: 300000, httpOnly: true })
+		.json({ message: "User logged in" });
 
 });
 
@@ -39,12 +40,20 @@ router.post("/logout", (req, res) => {
 
 router.get("/github", passport.authenticate("github"), async (req, res) => { });
 
-router.get("/githubcallback",passport.authenticate("github"),
+router.get("/githubcallback", passport.authenticate("github"),
 	async (req, res) => {
-		req.session.user = req.user;
+		const token = generateToken(req.user);
+
+		res
+		.cookie("authToken", token, { maxAge: 300000, httpOnly: true })
+		.json({ message: "User logged in" });
+
 		res.redirect("/products/?page=1");
 	}
 );
 
+router.get("/current", [ passportCall("jwt")], (req, res) => {
+	res.send(req.user)
+})
 
 export default router;

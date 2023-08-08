@@ -1,11 +1,17 @@
 import passport from "passport"
+import { Strategy, ExtractJwt as _ExtractJwt } from "passport-jwt";
+import cookieExtractor from "../helpers/helpersCookieExtractor.js";
 import local from "passport-local"
 import GitHubStrategy from "passport-github2"
 import userModel from "../dao/mongo/models/userModels.js"
+import CartManager from "../dao/mongo/manager/cartManager.js"
 import { createHash, isValidPassword } from "../helpers/helpersBcrypt.js"
 
 const localStrategy = local.Strategy
+const JWTStrategy = Strategy;
+const ExtractJwt = _ExtractJwt;
 
+const cartManager = new CartManager()
 
 const inilitializePassport = () => {
     passport.use("register", new localStrategy({
@@ -14,19 +20,22 @@ const inilitializePassport = () => {
 
     }, async (req, username, password, done) => {
 
-        const { first_name, last_name, email } = req.body
+        const { first_name, last_name, email, age } = req.body
 
         try {
 
             const user = await userModel.findOne({ email: username })
 
             if (user) return done(null, false, { message: "User already exists" })
+            const cartNew = await cartManager.createCart()
 
             const newUser = {
                 first_name,
                 last_name,
                 email,
-                password: createHash(password)
+                age,
+                password: createHash(password),
+                cart: cartNew._id
             }
             const result = await userModel.create(newUser)
             return done(null, result)
@@ -37,25 +46,25 @@ const inilitializePassport = () => {
     })
     )
 
-    passport.use("login",new localStrategy(
-            {
-                usernameField: "email",
-            },
-            async (username, password, done) => {
-                try {
-                    const user = await userModel.findOne({ email: username });
-                    if (!user) {
-                        return done(null, false, { message: "User not found" });
-                    }
-                    if (!isValidPassword(user, password)) {
-                        return done(null, false, { message: "Wrong password" });
-                    }
-                    return done(null, user);
-                } catch (error) {
-                    return done("Error al obtener el usuario" + error);
+    passport.use("login", new localStrategy(
+        {
+            usernameField: "email",
+        },
+        async (username, password, done) => {
+            try {
+                const user = await userModel.findOne({ email: username });
+                if (!user) {
+                    return done(null, false, { message: "User not found" });
                 }
+                if (!isValidPassword(user, password)) {
+                    return done(null, false, { message: "Wrong password" });
+                }
+                return done(null, user);
+            } catch (error) {
+                return done("Error al obtener el usuario" + error);
             }
-        )
+        }
+    )
     );
 
     passport.use("github", new GitHubStrategy({
@@ -79,6 +88,19 @@ const inilitializePassport = () => {
             }
         } catch (error) {
             return done("Error al obtener el usuario" + error);
+        }
+    }
+    )
+    );
+
+    passport.use("jwt", new JWTStrategy({
+        jwtFromRequest: ExtractJwt.fromExtractors([cookieExtractor]),
+        secretOrKey: process.env.JWT_SECRET_KEY,
+    }, async (jwt_payload, done) => {
+        try {
+            done(null, jwt_payload);
+        } catch (error) {
+            done(error);
         }
     }
     )

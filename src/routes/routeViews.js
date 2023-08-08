@@ -3,22 +3,21 @@ import  {viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTime
 import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
 import { idCartExist,idProductExist } from '../helpers/db-validators.js'
+import { passportCallLogin} from '../helpers/helpersPassportCall.js'
 
 const router = Router();
 
-router.get('/', viewsGet );
+router.get('/',[passportCallLogin("jwt")], viewsGet );
 
-router.get('/realtimeproducts', viewsGetRealTimeProducts );
+router.get('/realtimeproducts',[passportCallLogin("jwt")], viewsGetRealTimeProducts );
 
-router.get('/products', viewsGetProducts );
+router.get('/products', [passportCallLogin("jwt")] , viewsGetProducts );
 
-router.get('/carts/:cid',[
-    check('cid','No es un ID valido').isMongoId().not().isEmpty(),
-    check('cid').custom(idCartExist),
-    validarCampos
+router.get('/cart',[
+    passportCallLogin("jwt")
 ], viewsGetProductsInCart );
 
-router.get('/chat', viewChat );
+router.get('/chat',[passportCallLogin("jwt")], viewChat );
 
 router.get('/login', viewLogin );
 
