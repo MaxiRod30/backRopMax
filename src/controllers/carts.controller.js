@@ -1,13 +1,12 @@
 import { response, request } from 'express';
-import CartsManager from "../dao/mongo/manager/cartManager.js"
+import { cartsService } from '../services/index.js';
 
-const cartsManager = new CartsManager();
 
 export const cartsGet = async (req = request, res = response) => {
 
     const {limit} = req.query;
 
-    const carts = await cartsManager.getCarts(limit).populate('products.idproduct');
+    const carts = await cartsService.getAllCarts(limit);
 
     res.status(200).json({ status: "ok", data: carts });
 
@@ -17,7 +16,7 @@ export const cartsGetId = async (req = request, res = response) => {
 
     const cid = req.params.cid;
 
-    const cart = await cartsManager.getCartById(cid).populate('products.idproduct');
+    const cart = await cartsService.getCartbyIdviews(cid);
     if (!cart)
         return res.status(404).json({error: "Cart no encontrado!"});
     return res.status(200).json({ status: "ok", data: cart });
@@ -26,7 +25,7 @@ export const cartsGetId = async (req = request, res = response) => {
 export const cartsPost = async (req = request, res = response) => {
     
     try {
-        await cartsManager.createCart(); 
+        await cartsService.createcart(); 
         res.status(201).json({
             status: "ok",
             msg : `post API - carrito agregado`
@@ -41,7 +40,7 @@ export const cartsPostAddProduct = async (req = request, res = response) => {
     const {cid,pid} = req.params;
 
     try {
-        await cartsManager.addProductInCart(cid,pid)
+        await cartsService.addProductinCart(cid,pid)
 
         res.status(200).json({
             status: "ok",
@@ -59,7 +58,7 @@ export const cartsPutUpdate = async (req = request, res = response) => {
     let data = req.body;
 
     try {
-        await cartsManager.updateCart(cid,data)
+        await cartsService.updatecart(cid,data)
 
         res.status(200).json({
             status: "ok",
@@ -78,7 +77,7 @@ export const cartsPutUpdateProduct = async (req = request, res = response) => {
 
     try {
 
-        const updateProduct = await cartsManager.updateProductInCart(cid,pid,quantity)
+        const updateProduct = await cartsService.updateProductinCart(cid,pid,quantity)
 
         if(updateProduct){
             return res.status(200).json({
@@ -100,7 +99,7 @@ export const cartsDelete = async (req = request, res = response) => {
     const cid = req.params.cid;
 
     try {    
-        await cartsManager.deleteCart(cid);
+        await cartsService.deletecart(cid);
         return res.status(200).json({ status: "ok", msg: "Cart borrado!"});
         
     } catch (error) {
@@ -113,7 +112,7 @@ export const cartsDeleteProductById = async (req = request, res = response) => {
     const {cid,pid} = req.params;
 
     try {
-        await cartsManager.deleteProductCart(cid,pid)
+        await cartsService.deleteproductCart(cid,pid)
 
         res.status(200).json({
             status: "ok",
@@ -130,7 +129,7 @@ export const cartsDeleteAllProducts = async (req = request, res = response) => {
     const cid = req.params.cid;
 
     try {    
-        await cartsManager.deleteAllProducts(cid);
+        await cartsService.deleteAllproducts(cid);
         return res.status(200).json({             
             status: "ok",
             msg: `delete API - Productos borrados del carrito`

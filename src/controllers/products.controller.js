@@ -1,8 +1,6 @@
 import { response, request } from 'express';
-import ProductsManager from "../dao/mongo/manager/productManager.js";
-import productModel from "../dao/mongo/models/productModels.js"
 
-const productsManager = new ProductsManager();
+import { productsService } from '../services/index.js';
 
 export const productsGet = async (req = request, res = response) => {
     
@@ -26,7 +24,7 @@ export const productsGet = async (req = request, res = response) => {
     }
 
     const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages ,...rest } 
-    = await productModel.paginate(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
+    = await productsService.paginateProduct(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
 
     res.status(200).json({ 
 
@@ -48,7 +46,7 @@ export const productsGetId = async (req = request, res = response) => {
 
     const pid = req.params.pid;
 
-    const product = await productsManager.getProductsById(pid);
+    const product = await productsService.getProductsbyId(pid);
     if (!product)
         return res.status(404).json({error: "Producto no encontrado!"});
     return res.status(200).json({ status: "ok", data: product });
@@ -59,7 +57,7 @@ export const productsPost = async(req = request , res = response) => {
     let {title,description,code,price, status, category, thumbnail, stock} = req.body;
     
     try {
-        const productFound = await productsManager.getProductsByCode(code)
+        const productFound = await productsService.getProductsbyCode(code)
         if(!productFound)
             return res.status(400).json({error: "Producto repetido!"})
         
@@ -74,7 +72,7 @@ export const productsPost = async(req = request , res = response) => {
             stock
         }
         
-        await productsManager.createProducts(newProduct)
+        await productsService.createProduct(newProduct)
     
         return res.status(201).json({ msg: "post API - producto agregado", data: newProduct });
     
@@ -107,7 +105,7 @@ export const productsDelete = async (req = request , res = response) => {
     const pid = req.params.pid;
 
     try {    
-        await productsManager.deleteProducts(pid);
+        await productsService.deleteProductbyId(pid);
         return res.status(200).json({ msg: "Producto borrado!"});
         
     } catch (error) {

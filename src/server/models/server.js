@@ -1,13 +1,10 @@
 import express from 'express';
-import routerProducts from "../../routes/routeProducts.js"
-import routerCarts from "../../routes/routeCarts.js"
-import routerViews from "../../routes/routeViews.js"
-import routerSessions from "../../routes/routeSessions.js"
+import router from "../../routes/index.js";
 import handlebars from "express-handlebars";
 import __dirname from "../../util.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
-import { socketController } from "../../controllers/sockets/controllerSockets.js"
+import { socketController } from "../../controllers/sockets/sockets.controller.js"
 import { dbConnetion } from '../../dao/mongo/config.js'
 import session from "express-session";
 import MongoStore from "connect-mongo";
@@ -95,10 +92,8 @@ export default class MyServer {
 
     routes() {
 
-        this.app.use(this.productsPath, routerProducts);
-        this.app.use(this.cartsPath, routerCarts);
-        this.app.use(this.viewsPath, routerViews);
-        this.app.use(this.sessionsPath, routerSessions);
+        this.app.use("/", router);
+
     }
 
     sockets() {

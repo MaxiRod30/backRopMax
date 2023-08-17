@@ -25,14 +25,13 @@ chatBox.addEventListener("keyup", (e) => {
 
 
 
-socket.on("messageLogs", (data) => {
+socket.on("messageLogs", async (data) => {
   let log = document.getElementById("messageLogs");
   let messages = "";
-  console.log(data)
-  data.forEach((message) => {
+  await data.forEach((message) => {
     messages += `<p><strong>${message.user}</strong>: ${message.message}</p>`;
   });
-  console.log(messages)
+
   log.innerHTML = messages;
 });
 

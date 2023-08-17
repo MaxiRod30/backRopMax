@@ -1,6 +1,6 @@
 
 import { Router } from 'express';
-import  {cartsDeleteAllProducts, cartsPutUpdateProduct ,cartsPutUpdate, cartsDelete, cartsGet,cartsGetId,cartsPost,cartsPostAddProduct, cartsDeleteProductById} from '../controllers/controllerCarts.js';
+import  {cartsDeleteAllProducts, cartsPutUpdateProduct ,cartsPutUpdate, cartsDelete, cartsGet,cartsGetId,cartsPost,cartsPostAddProduct, cartsDeleteProductById} from '../controllers/carts.controller.js';
 import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
 import { idCartExist,idProductExist } from '../helpers/db-validators.js'

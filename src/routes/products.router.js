@@ -1,6 +1,6 @@
 
 import { Router } from 'express';
-import  {productsGet,productsGetId,productsPost,productsPut,productsDelete} from '../controllers/controllerProducts.js';
+import  {productsGet,productsGetId,productsPost,productsPut,productsDelete} from '../controllers/products.controller.js';
 import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
 import { codeProductExist,idProductExist }from '../helpers/db-validators.js'

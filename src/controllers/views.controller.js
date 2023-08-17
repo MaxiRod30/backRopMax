@@ -1,10 +1,7 @@
 import { response, request } from 'express';
-import ProductsManager from "../dao/mongo/manager/productManager.js";
-import CartsManager from '../dao/mongo/manager/cartManager.js';
-import productModel from '../dao/mongo/models/productModels.js';
 
-const productsManager = new ProductsManager();
-const cartsManager = new CartsManager();
+import { productsService,cartsService } from '../services/index.js';
+
 
 export const viewsGet = async (req = request, res = response) => {
 	try {
@@ -18,12 +15,33 @@ export const viewsGet = async (req = request, res = response) => {
 	};
 }
 
-export const viewsGetRealTimeProducts = (req = request, res = response) => {
+export const viewsGetRealTimeProducts = async (req = request, res = response) => {
 	try {
+		let filter = {};
 
+		const {limit=2 , page=1, sort="asc" ,query, stock} = req.query;
+	
+		if (query) {
+			filter = {
+			  $or: [
+				{ category: { $regex: query, $options: "i" } },
+				{ title: { $regex: query, $options: "i" } }
+			  ],
+			};
+		  }
+		  if (stock && !isNaN(stock)) {
+			filter.stock = { $gt: Number(stock) };
+		}
+
+		const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages ,...rest } 
+		= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
+	
+		const products = docs
+		console.log(products)
 		return res.render("realTimeProducts", {
 			style: "styles.css",
 			documentTitle: "Socket",
+			products
 		});
 		
 	} catch (err) {
@@ -52,7 +70,7 @@ export const viewsGetProducts = async(req = request, res = response) => {
 		}
 	
 		const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages ,...rest } 
-		= await productModel.paginate(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
+		= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
 	
 		const products = docs
 		if(totalPages >= page){
@@ -82,7 +100,7 @@ export const viewsGetProductsInCart = async(req = request, res = response) => {
 		
 		const cartId = req.user.user.cart;
 		
-		const productsInCart = await cartsManager.getCartByIdviews(cartId)
+		const productsInCart = await cartsService.getCartbyIdviews(cartId)
 	
 		const products = productsInCart.products
 	

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import  {viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/controllerViews.js';
+import  {viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/views.controller.js';
 import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
 import { idCartExist,idProductExist } from '../helpers/db-validators.js'
