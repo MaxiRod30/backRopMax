@@ -73,6 +73,7 @@ export const viewsGetProducts = async(req = request, res = response) => {
 		= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
 	
 		const products = docs
+
 		if(totalPages >= page){
 			res.render("products", {
 				products,
@@ -99,11 +100,8 @@ export const viewsGetProductsInCart = async(req = request, res = response) => {
 	try {
 		
 		const cartId = req.user.user.cart;
-		
 		const productsInCart = await cartsService.getCartbyIdviews(cartId)
-	
 		const products = productsInCart.products
-	
 		return res.render("carts", {
 			style: "styles.css",
 			products
@@ -127,9 +125,9 @@ export const viewChat = (req = request, res = response) => {
 
 export const viewLogin = async (req = request, res = response) => {
 	try {
-		if(req.session.user){
+		if(req.user){
 			return res.status(200).render("home", {
-				user: req.session.user,
+				user: req.user,
 				style: "styles.css",
 				documentTitle: "Home",
 			});
