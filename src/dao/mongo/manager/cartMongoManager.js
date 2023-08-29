@@ -1,7 +1,9 @@
 import cartModel from "../models/cartModels.js";
-import { productsService } from '../../../services/index.js';
+// import {productsService} from '../../../services/index.js'
 
-export default class CartsManager {
+export default class CartsManager{
+  constructor() {
+  }
 
   getCarts = async (limite) => {
     if (limite)
@@ -71,7 +73,7 @@ export default class CartsManager {
     const cartFind = await this.getCartById(cartId)
 
     const productIndex = cartFind.products.findIndex(
-      (product) => product.idproduct === productId
+      (product) => JSON.stringify(product.idproduct) == productId
     );
 
     if (productIndex === -1) {
@@ -79,8 +81,9 @@ export default class CartsManager {
     }
 
     cartFind.products.splice(productIndex, 1);
+    const cart = await cartFind.save();
 
-    return await cartFind.save();
+    return cart
   }
 
   deleteAllProducts = async (cid) => {

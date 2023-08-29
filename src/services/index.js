@@ -2,20 +2,13 @@ import userService from "./users.service.js";
 import productService from "./products.service.js"
 import cartService from "./carts.service.js"
 import messageService from "./messages.service.js"
+import ticketService from "./tickets.service.js"
 
-import UserMemoryManager from "../dao/usersMemoryManager.js";
-import UserMongoManager from "../dao/mongo/manager/usersMongoManager.js"
+import {usersDAO, productsDAO,messagesDAO,cartsDAO,ticketsDAO} from "../dao/factory.js"
 
-import ProductMemoryManager from "../dao/productMemoryManager.js"
-import ProductMongoManager from "../dao/mongo/manager/productMongoManager.js"
 
-import CartMemoryManager from "../dao/cartMemoryManager.js"
-import CartMongoManager from "../dao/mongo/manager/cartMongoManager.js"
-
-import MessageMemoryManager from "../dao/messageMemoryManager.js"
-import MessageMongoManager from "../dao/mongo/manager/messageMongoManager.js"
-
-export const usersService = new userService(new UserMongoManager());
-export const productsService = new productService(new ProductMongoManager());
-export const cartsService = new cartService(new CartMongoManager());
-export const messagesService = new messageService(new MessageMongoManager());
+export const usersService = new userService(usersDAO);
+export const productsService = new productService(productsDAO);
+export const cartsService = new cartService(cartsDAO);
+export const messagesService = new messageService(messagesDAO);
+export const ticketsService = new ticketService(ticketsDAO);

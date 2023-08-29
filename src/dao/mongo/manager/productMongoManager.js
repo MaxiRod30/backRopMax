@@ -1,8 +1,8 @@
-
 import productModel from "../models/productModels.js";
 
 export default class ProductsManager {
-
+  constructor() {     
+  }
     getProducts = async (limite) => {
         if(limite)
             return await productModel.find().limit(limite).lean();

@@ -4,19 +4,23 @@ import  {productsGet,productsGetId,productsPost,productsPut,productsDelete} from
 import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
 import { codeProductExist,idProductExist }from '../helpers/db-validators.js'
-
+import { passportCall } from "../helpers/helpersPassportCall.js";
+import authorization from '../middlewares/authorization.middlewares.js';
 
 const router = Router();
 
-router.get('/', productsGet );
+router.get('/',[passportCall("jwt")], productsGet );
 
 router.get('/:pid',[
+    passportCall("jwt"),
     check('pid','No es un ID valido').isMongoId(),
     check('pid').custom(idProductExist),
     validarCampos
 ],productsGetId );
 
 router.post('/',[
+    passportCall("jwt"), 
+    authorization("ADMIN_ROLE"),
     check('title','El title es obligatorio').not().isEmpty(),
     check('description','La description es obligatorio').not().isEmpty(),
     check('code','La code es obligatorio').not().isEmpty(),
@@ -31,12 +35,16 @@ router.post('/',[
 ] ,productsPost );
 
 router.put('/:pid',[
+    passportCall("jwt"), 
+    authorization("ADMIN_ROLE"),
     check('pid','No es un ID valido').isMongoId(),
     check('pid').custom(idProductExist),
     validarCampos
 ], productsPut );
 
 router.delete('/:pid',[
+    passportCall("jwt"), 
+    authorization("ADMIN_ROLE"),
     check('pid','No es un ID valido').isMongoId(),
     check('pid').custom(idProductExist),
     validarCampos

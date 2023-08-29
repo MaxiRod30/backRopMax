@@ -1,5 +1,4 @@
 
-import 'dotenv/config.js'
 
 import  MyServer from "./src/server/models/server.js";
 

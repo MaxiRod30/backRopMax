@@ -86,13 +86,13 @@ export const productsPut = async (req = request , res = response) => {
     const pid = req.params.pid;
     const { title, description, code, price, status, category, thumbnail, stock} = req.body;
     
-    if (!title || !description || !code || !price || !status || !category ||!thumbnail ||!stock){
+    if (!title || !description || !price || !status || !category ||!thumbnail ||!stock){
       return res.status(400).json({ status: "error", message: "No data sent!" });
     }
 
     try {
         const newProduct = req.body;
-        await companiesManager.updateCompany(pid, newProduct);
+        await productsService.updateproducts(pid, newProduct);
         res.status(201).json({ status: "ok", data: newProduct });
     } catch (error) {
         return res.status(404).json({msg: "Error en Base de datos!", error})

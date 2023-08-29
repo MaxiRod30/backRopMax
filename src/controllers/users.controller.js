@@ -1,4 +1,5 @@
 import { generateToken } from "../helpers/helpersJwt.js";
+import UserDTO from "../DTOs/User.dto.js"
 
 const login = async (req, res) => {
 
@@ -47,7 +48,8 @@ const githubcallback = async (req, res) => {
 };
 
 const current = async (req, res) => {
-    res.send(req.user)
+	const sendUser = new UserDTO(req.user.user)
+    res.send(sendUser)
 };
 
 

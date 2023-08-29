@@ -5,12 +5,11 @@ import __dirname from "../../util.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import { socketController } from "../../controllers/sockets/sockets.controller.js"
-import { dbConnetion } from '../../dao/mongo/config.js'
-import session from "express-session";
-import MongoStore from "connect-mongo";
 import passport from 'passport';
 import inilitializePassport from '../../middlewares/passportConfig.js';
 import cookieParser from "cookie-parser";
+import { port } from "../../config/app.config.js";
+
 
 export default class MyServer {
 
@@ -21,20 +20,15 @@ export default class MyServer {
         this.io = new Server(this.server);
 
 
-        this.port = process.env.PORT;
+        this.port = port;
         this.productsPath = '/api/products';
         this.cartsPath = '/api';
         this.viewsPath = '/';
         this.sessionsPath = '/api/sessions';
 
-        //Conectar a la base de datos
-        this.conectarDB();
-
+ 
         //Handlebars
         this.handlebars();
-        
-        // Session
-        this.sesion();
 
         //Middlewares
         this.middlewares();
@@ -50,26 +44,11 @@ export default class MyServer {
 
     }
 
-    sesion() {
-        this.app.use(session({
-            store: MongoStore.create({
-                mongoUrl: process.env.MONGODB_ATLAS,
-                ttl: 3600
-            }),
-            secret: "mAx%17Zrt2a",
-            resave: false,
-            saveUninitialized: false,
-        }));
-    }
 
     cookies() {
 
         this.app.use(cookieParser())
 
-    }
-
-    async conectarDB() {
-        await dbConnetion();
     }
 
     handlebars() {
@@ -87,7 +66,6 @@ export default class MyServer {
         //Passport
         inilitializePassport();
         this.app.use(passport.initialize())
-        this.app.use(passport.session())
     }
 
     routes() {

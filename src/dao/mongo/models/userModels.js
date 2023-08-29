@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema({
         type: Number,
         required: [true, 'La edad es obligatoria']
     },
+    phone: {
+        type: Number,
+        required: [true, 'El telefono es obligatorio']
+    },
 	password: {
         type: String,
         required: [true, 'La contraseña es obligatoria']

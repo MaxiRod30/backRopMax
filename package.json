@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start:local": "set NODE_ENV=local&& node app.js",
+    "start:dev": "set NODE_ENV=development&& node app.js"
   },
   "author": "Maximiliano Rodriguez",
   "license": "ISC",
@@ -25,6 +26,7 @@
     "mongoose": "^7.4.1",
     "mongoose-paginate-v2": "^1.7.1",
     "morgan": "^1.10.0",
+    "nanoid": "^4.0.2",
     "passport": "^0.6.0",
     "passport-github2": "^0.1.12",
     "passport-jwt": "^4.0.1",
