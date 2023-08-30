@@ -9,7 +9,9 @@ import passport from 'passport';
 import inilitializePassport from '../../middlewares/passportConfig.js';
 import cookieParser from "cookie-parser";
 import { port } from "../../config/app.config.js";
-
+import session from "express-session";
+import MongoStore from "connect-mongo";
+import {dbMongoAtlas} from "../../config/db.config.js"
 
 export default class MyServer {
 
@@ -27,7 +29,9 @@ export default class MyServer {
         this.sessionsPath = '/api/sessions';
 
  
-        
+        // Session
+        this.sesion();
+
         //Middlewares
         this.middlewares();
         
@@ -45,6 +49,17 @@ export default class MyServer {
 
     }
 
+    sesion() {
+        this.app.use(session({
+            store: MongoStore.create({
+                mongoUrl: dbMongoAtlas,
+                ttl: 3600
+            }),
+            secret: "mAx%17Zrt2a",
+            resave: false,
+            saveUninitialized: false,
+        }));
+    }
 
     cookies() {
 
@@ -67,6 +82,7 @@ export default class MyServer {
         //Passport
         inilitializePassport();
         this.app.use(passport.initialize())
+        this.app.use(passport.session())
     }
 
     routes() {

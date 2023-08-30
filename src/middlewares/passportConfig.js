@@ -22,7 +22,7 @@ const inilitializePassport = () => {
 
     }, async (req, username, password, done) => {
 
-        const { first_name, last_name, email, age } = req.body
+        const { first_name, last_name, email, age , phone } = req.body
 
         try {
 
@@ -36,6 +36,7 @@ const inilitializePassport = () => {
                 last_name,
                 email,
                 age,
+                phone,
                 password: createHash(password),
                 cart: cartNew._id
             }

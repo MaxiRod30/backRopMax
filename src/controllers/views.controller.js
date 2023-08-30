@@ -125,6 +125,7 @@ export const viewChat = (req = request, res = response) => {
 
 export const viewLogin = async (req = request, res = response) => {
 	try {
+		
 		if (req.user) {
 			return res.status(200).render("home", {
 				user: req.user,
