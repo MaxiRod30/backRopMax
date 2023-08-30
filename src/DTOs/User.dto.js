@@ -6,7 +6,7 @@ class UserDTO {
       this.phone = user.phone ? user.phone.replace(/[-\s]/g, "") : "";
       this.age = user.age;
       this.rol = user.rol
-
+      this.cart = user.cart
     }
   }
   

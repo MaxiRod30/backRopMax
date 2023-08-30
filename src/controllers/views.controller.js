@@ -1,6 +1,6 @@
 import { response, request } from 'express';
 
-import { productsService,cartsService } from '../services/index.js';
+import { productsService, cartsService } from '../services/index.js';
 
 
 export const viewsGet = async (req = request, res = response) => {
@@ -19,23 +19,23 @@ export const viewsGetRealTimeProducts = async (req = request, res = response) =>
 	try {
 		let filter = {};
 
-		const {limit=2 , page=1, sort="asc" ,query, stock} = req.query;
-	
+		const { limit = 2, page = 1, sort = "asc", query, stock } = req.query;
+
 		if (query) {
 			filter = {
-			  $or: [
-				{ category: { $regex: query, $options: "i" } },
-				{ title: { $regex: query, $options: "i" } }
-			  ],
+				$or: [
+					{ category: { $regex: query, $options: "i" } },
+					{ title: { $regex: query, $options: "i" } }
+				],
 			};
-		  }
-		  if (stock && !isNaN(stock)) {
+		}
+		if (stock && !isNaN(stock)) {
 			filter.stock = { $gt: Number(stock) };
 		}
 
-		const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages ,...rest } 
-		= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
-	
+		const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages, ...rest }
+			= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: { price: sort }, lean: true });
+
 		const products = docs
 		console.log(products)
 		return res.render("realTimeProducts", {
@@ -43,39 +43,39 @@ export const viewsGetRealTimeProducts = async (req = request, res = response) =>
 			documentTitle: "Socket",
 			products
 		});
-		
+
 	} catch (err) {
 		return res.status(500).json({ error: err.message });
 	};
 }
 
-export const viewsGetProducts = async(req = request, res = response) => {
-	
+export const viewsGetProducts = async (req = request, res = response) => {
+
 	try {
 
 		let filter = {};
 
-		const {limit=2 , page=1, sort ,query, stock} = req.query;
-	
+		const { limit = 2, page = 1, sort, query, stock } = req.query;
+
 		if (query) {
 			filter = {
-			  $or: [
-				{ category: { $regex: query, $options: "i" } },
-				{ title: { $regex: query, $options: "i" } }
-			  ],
+				$or: [
+					{ category: { $regex: query, $options: "i" } },
+					{ title: { $regex: query, $options: "i" } }
+				],
 			};
-		  }
-		  if (stock && !isNaN(stock)) {
+		}
+		if (stock && !isNaN(stock)) {
 			filter.stock = { $gt: Number(stock) };
 		}
-	
-		const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages ,...rest } 
-		= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: {price: sort}, lean: true });
-	
+
+		const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages, ...rest }
+			= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: { price: sort }, lean: true });
+
 		const products = docs
 
-		if(totalPages >= page){
-			res.render("products", {
+		if (totalPages >= page) {
+			return res.render("listProduct", {
 				products,
 				page: rest.page,
 				hasPrevPage,
@@ -84,21 +84,21 @@ export const viewsGetProducts = async(req = request, res = response) => {
 				nextPage,
 				query
 			});
-		}else{
+		} else {
 			res.render("error", {
 				msg: "Error en la pagina"
 			});
 		}
-		
+
 	} catch (err) {
 		return res.status(500).json({ error: err.message });
-	};	
+	};
 
 }
 
-export const viewsGetProductsInCart = async(req = request, res = response) => {
+export const viewsGetProductsInCart = async (req = request, res = response) => {
 	try {
-		
+
 		const cartId = req.user.user.cart;
 		const productsInCart = await cartsService.getCartbyIdviews(cartId)
 		const products = productsInCart.products
@@ -106,26 +106,26 @@ export const viewsGetProductsInCart = async(req = request, res = response) => {
 			style: "styles.css",
 			products
 		});
-		
+
 	} catch (err) {
 		return res.status(500).json({ error: err.message });
-	};	
+	};
 
 }
 
 export const viewChat = (req = request, res = response) => {
-	
+
 	try {
-		return res.render("chat", { });
-		
+		return res.render("chat", {});
+
 	} catch (err) {
 		return res.status(500).json({ error: err.message });
-	};	
+	};
 }
 
 export const viewLogin = async (req = request, res = response) => {
 	try {
-		if(req.user){
+		if (req.user) {
 			return res.status(200).render("home", {
 				user: req.user,
 				style: "styles.css",
@@ -152,14 +152,14 @@ export const viewRegister = async (req = request, res = response) => {
 	} catch (error) {
 		return res.status(500).json({ error: err.message });
 	}
-	
+
 };
 
 export const viewsFailLogin = async (req = request, res = response) => {
 	try {
 		return res.status(200).render("faillogin", {
 			documentTitle: "FailLogin",
-			msg:"Fallo al logiarse"
+			msg: "Fallo al logiarse"
 		});
 	} catch (err) {
 		return res.status(500).json({ error: err.message });

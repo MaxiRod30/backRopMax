@@ -1,39 +1,45 @@
 <div class="home-container">
-	<h1 class="home-title d-flex justify-content-center">Carrito de compras</h1>
-        {{#each products}}
-			<div class="container mt-2 mb-2">
-                <div class="d-flex justify-content-center row">
-                    <div class="col-md-10">
-                        <div class="row p-2 bg-white border rounded">
-                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
-                                    src="https://esonlineservice.com/wp-content/uploads/2019/10/PLC-Logo-24CE-Siemen-1.jpg"></div>
-                            <div class="col-md-6 mt-1">
-                                <h5>{{this.idproduct.title}}</h5>
-                                <div class="d-flex flex-row">
-                                </div>
-                                <h6>{{this.idproduct.category}}</h6>
-                                <p class="text-justify  para mb-0">{{this.idproduct.description}}<br><br></p>
-                            </div>
-                                <div class="align-items-center align-content-center col-md-3 border-left mt-1">
-                                    <div class="d-flex flex-row align-items-center">
-                                        <h4 class="mr-1">$ {{this.idproduct.price}} </h4>
-                                    </div>
-                                    <div class="d-flex flex-row align-items-center">
-                                        <h6 class="mr-2">Cantidad:{{this.quantity}} </h6>
-                                    </div>
-                                    <div class="d-flex  flex-column mt-2">
-                                        <button class= "btn btn-outline-success btn-sm mt-2" >+</button>
-                                    </div>
-                                    <div class="d-flex  flex-column mt-0">    
-                                        <button class= "btn btn-outline-danger btn-sm mt-2" >-</button> 
-                                    </div>
-                                    <div class="d-flex flex-column mt-4">
-                                        <button class="btn btn-outline-danger btn-sm mt-2" id="btnCarrito${producto.id}" type="button">Borrar producto</button>
-                                    </div>
-                                </div>
+    <h1 class="home-title d-flex justify-content-center">Carrito de compras</h1>
+    {{#each products}}
+    <div class="container mt-2 mb-2">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10">
+                <div class="row p-2 bg-white border rounded">
+                    <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                            src="https://esonlineservice.com/wp-content/uploads/2019/10/PLC-Logo-24CE-Siemen-1.jpg">
+                    </div>
+                    <div class="col-md-6 mt-1">
+                        <h5>{{this.idproduct.title}}</h5>
+                        <div class="d-flex flex-row">
+                        </div>
+                        <h6>{{this.idproduct.category}}</h6>
+                        <p class="text-justify  para mb-0">{{this.idproduct.description}}<br><br></p>
+                    </div>
+                    <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                        <div class="d-flex flex-row align-items-center">
+                            <h4 class="mr-1">$ {{this.idproduct.price}} </h4>
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                            <h6 class="mr-2">Cantidad:{{this.quantity}} </h6>
+                        </div>
+                        <div class="d-flex  flex-column mt-2">
+                            <button class="btn btn-outline-success btn-sm mt-2">+</button>
+                        </div>
+                        <div class="d-flex  flex-column mt-0">
+                            <button class="btn btn-outline-danger btn-sm mt-2">-</button>
+                        </div>
+                        <div class="d-flex flex-column mt-4">
+                            <button class="btn btn-outline-danger btn-sm mt-2" id="btnCarrito${producto.id}"
+                                type="button">Borrar producto</button>
                         </div>
                     </div>
                 </div>
-            </div> 
-		{{/each}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+
+    <div class="d-flex flex-column mt-4">
+        <button class="btn btn-outline-danger btn-sm mt-2" id="btnFinalizePurchase" type="button">Finalizar Compra</button>
+    </div>
 </div>

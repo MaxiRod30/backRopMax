@@ -19,6 +19,7 @@
             </div>
             </div>
           </div>
+
 		{{#each products}}
 			<div class="container mt-2 mb-2">
                 <div class="d-flex justify-content-center row">
@@ -38,7 +39,7 @@
                                     <h4 class="mr-1">$ {{this.price}}</h4>
                                 </div>
                                 <div class="d-flex flex-column mt-4"><button class="btn btn-outline-primary btn-sm mt-2"
-                                   id="" type="button">Agregar a carrito</button></div>
+                                   onclick={addProduct({{this}})} type="button">Agregar a carrito</button></div>
                             </div>
                         </div>
                     </div>

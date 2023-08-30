@@ -27,12 +27,13 @@ export default class MyServer {
         this.sessionsPath = '/api/sessions';
 
  
-        //Handlebars
-        this.handlebars();
-
+        
         //Middlewares
         this.middlewares();
-
+        
+        //Handlebars
+        this.handlebars();
+        
         //Cookies
         this.cookies();
 
