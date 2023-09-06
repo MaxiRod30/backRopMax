@@ -1,0 +1,595 @@
+{
+	"info": {
+		"_postman_id": "361503bc-ff83-47e6-af0c-9920a9c70b20",
+		"name": "restServerCoder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19780977"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Add Products",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"title123\",\r\n    \"description\":\"description123\",\r\n    \"code\": \"asd123123123\",\r\n    \"price\": 10,\r\n    \"status\": true,\r\n    \"category\": \"categoria123\",\r\n    \"thumbnail\": [],\r\n    \"stock\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mock Products",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"title123\",\r\n    \"description\":\"description123\",\r\n    \"code\": \"asd123123123\",\r\n    \"price\": 10,\r\n    \"status\": true,\r\n    \"category\": \"categoria123\",\r\n    \"thumbnail\": [],\r\n    \"stock\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/mockingproducts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"mockingproducts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit product",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"title3\",\r\n    \"description\":\"description3\",\r\n    \"price\": 10,\r\n    \"status\": true,\r\n    \"category\": \"categoria3\",\r\n    \"thumbnail\": [],\r\n    \"stock\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/64a43f977e225366e56f065d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"64a43f977e225366e56f065d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete product",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"title2222\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/64de4a398cd99f7d13632837",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"64de4a398cd99f7d13632837"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get products",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0YzJiZGU2NDBjOGJmZmVmMjBmY2ZmMiIsImZpcnN0X25hbWUiOiJtYXhpIiwibGFzdF9uYW1lIjoiYXNkIiwiZW1haWwiOiJhc2RAbWFpbCIsInBhc3N3b3JkIjoiJDJiJDEwJDZkbC5OL01rdXhWUkJ4V2IzL0k0Y2U2akNMN2h0SldNU0lvQ1k1T1VFN0Rzci5GT09VRmZXIiwicm9sIjoiVVNFUl9ST0xFIiwiX192IjowfSwiaWF0IjoxNjkxMzk2MDIyLCJleHAiOjE2OTEzOTYzMjJ9.KglFEfgmor2hmXrT7ERt3vbyZWGso5GekkR0xnZx2ms",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "query",
+									"value": "category:\"asd\"",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "desc",
+									"disabled": true
+								},
+								{
+									"key": "stock",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get products by Id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/64b05c9dcaf8715efecbd2f6",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"64b05c9dcaf8715efecbd2f6"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cart",
+			"item": [
+				{
+					"name": "Add Carrito",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Carrito Purchase",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Carritos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product Cart ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts/64d253fd60c0adb3371944a8",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64d253fd60c0adb3371944a8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Cart",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/cart/64af44789dbd443d4e2172f5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"cart",
+								"64af44789dbd443d4e2172f5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Product by Cart",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts/64d253fd60c0adb3371944a8/products/64a43f977e225366e56f065d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64d253fd60c0adb3371944a8",
+								"products",
+								"64a43f977e225366e56f065d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete All Products by Cart",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts/64af44789dbd443d4e2172f5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64af44789dbd443d4e2172f5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add product a carrito ID",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts/64d253fd60c0adb3371944a8/product/64a43f977e225366e56f065d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64d253fd60c0adb3371944a8",
+								"product",
+								"64a43f977e225366e56f065d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add product a carrito ID Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts/64de35b2dfe94f5902f514aa/product/64a43f977e225366e56f065d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64de35b2dfe94f5902f514aa",
+								"product",
+								"64a43f977e225366e56f065d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update array products",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"products\": [\r\n    {\r\n        \"idproduct\": \"64a43fab7e225366e56f0660\",\r\n        \"quantity\": 3,\r\n        \"_id\": \"64ac888ecb251162982e1ccd\"\r\n    },\r\n    {\r\n        \"idproduct\": \"64a43f977e225366e56f065d\",\r\n        \"quantity\": 1,\r\n        \"_id\": \"64adaa9c0229a9f0b6e65d88\"\r\n    }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/carts/64a4507ad5b0cd1f085b2652",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64a4507ad5b0cd1f085b2652"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update product quantity",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"quantity\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/carts/64af44789dbd443d4e2172f5/products/64a43f977e225366e56f065d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64af44789dbd443d4e2172f5",
+								"products",
+								"64a43f977e225366e56f065d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add product a carrito ID 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/carts/64af44789dbd443d4e2172f5/product/64a43f977e225366e56f065d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"carts",
+								"64af44789dbd443d4e2172f5",
+								"product",
+								"64a43f977e225366e56f065d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Add user Admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"maxi3@mail\",\r\n    \"password\": \"1234567.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add user USER",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"santi@hotmail.com\",\r\n    \"password\": \"1234567.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\":\"Maxi3\",\r\n    \"last_name\":\"Corneta\",\r\n    \"email\": \"maxi3@mail\",\r\n    \"age\": 18,\r\n    \"password\": \"1234567.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/register",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0YzJiZGU2NDBjOGJmZmVmMjBmY2ZmMiIsImZpcnN0X25hbWUiOiJtYXhpIiwibGFzdF9uYW1lIjoiYXNkIiwiZW1haWwiOiJhc2RAbWFpbCIsInBhc3N3b3JkIjoiJDJiJDEwJDZkbC5OL01rdXhWUkJ4V2IzL0k0Y2U2akNMN2h0SldNU0lvQ1k1T1VFN0Rzci5GT09VRmZXIiwicm9sIjoiVVNFUl9ST0xFIiwiX192IjowfSwiaWF0IjoxNjkxNTAxMjI4LCJleHAiOjE2OTE1MDE1Mjh9.jelTWg34tlqsagBAuOMR4k0EV8GyZhH4Zikw1lQ7qYY",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/api/sessions/current",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"current"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

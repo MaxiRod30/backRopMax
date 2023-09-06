@@ -12,6 +12,7 @@
   "author": "Maximiliano Rodriguez",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@handlebars/allow-prototype-access": "^1.0.5",
     "bcrypt": "^5.1.0",
     "bootstrap-icons": "^1.10.5",
