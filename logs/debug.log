@@ -1,0 +1,17 @@
+info: Servidor corriendo en puerto 3000
+info: Conectando ...
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: GET en /api/sessions/current - function toLocaleDateString() { [native code] }
+http: GET en /api/sessions/current - function toLocaleDateString() { [native code] }
+http: GET en /api/sessions/current - function toLocaleDateString() { [native code] }
+http: POST en /api/sessions/login - function toLocaleDateString() { [native code] }
+http: GET en /api/sessions/current - function toLocaleDateString() { [native code] }
+info: Conectando ...
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: GET en /api/sessions/current - function toLocaleTimeString() { [native code] }
+info: Conectando ...
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: GET en /api/sessions/current - Mon Sep 11 2023 03:57:43 GMT-0300 (hora estándar de Uruguay)

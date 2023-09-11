@@ -12,6 +12,9 @@ import { port } from "../../config/app.config.js";
 import session from "express-session";
 import MongoStore from "connect-mongo";
 import {dbMongoAtlas} from "../../config/db.config.js"
+import cors from "cors";
+import morgan from 'morgan';
+import logger, { addLogger } from '../../helpers/helpersLoggers.js';
 
 export default class MyServer {
 
@@ -83,6 +86,10 @@ export default class MyServer {
         inilitializePassport();
         this.app.use(passport.initialize())
         this.app.use(passport.session())
+
+        this.app.use(morgan('dev'));
+        this.app.use(cors());
+        this.app.use(addLogger)
     }
 
     routes() {
@@ -99,7 +106,7 @@ export default class MyServer {
 
     listen() {
         this.server.listen(this.port, () => {
-            console.log('Servidor corriendo en puerto', this.port);
+            logger.info(`Servidor corriendo en puerto ${this.port}`)
         });
     }
 

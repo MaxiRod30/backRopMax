@@ -1,14 +1,15 @@
 import mongoose from 'mongoose';
 import { dbMongoAtlas } from '../../config/db.config.js';
+import logger from '../../helpers/helpersLoggers.js';
 
 const mongoConnect = async() => {
     try {
-        console.log('Conectando ...');
+        logger.info(`Conectando ...`)
         await mongoose.connect(dbMongoAtlas);
-        console.log('Base de datos online');
+        logger.info(`Base de datos online`)
+
     } catch (error) {
-        console.log(error);
-        throw new Error('Error a la hora de conectar la base de datos');
+        logger.fatal(`Error base de datos ${error}`)
     }
 }
 
