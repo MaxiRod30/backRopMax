@@ -15,3 +15,20 @@ info: Conectando ...
 info: Servidor corriendo en puerto 3000
 info: Base de datos online
 http: GET en /api/sessions/current - Mon Sep 11 2023 03:57:43 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: POST en /api/sessions/login - Tue Sep 12 2023 04:27:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/loggerTest - Tue Sep 12 2023 04:27:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/loggerTest - Tue Sep 12 2023 04:30:01 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: POST en /api/sessions/login - Tue Sep 12 2023 04:31:15 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/loggerTest - Tue Sep 12 2023 04:31:19 GMT-0300 (hora estándar de Uruguay)
+fatal: Fatal log
+error: Error log
+warn: Warn log
+info: Info log
+http: HTTP log
+debug: Debug log
