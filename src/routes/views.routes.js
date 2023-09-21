@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import  {viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/views.controller.js';
-import { passportCallLogin} from '../helpers/helpersPassportCall.js'
+import  {viewRestoreFail,viewRestorePassword,viewRestore ,viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/views.controller.js';
+import { passportCallRestore , passportCallLogin} from '../helpers/helpersPassportCall.js'
 import authorization from '../middlewares/authorization.middlewares.js';
 
 const router = Router();
@@ -20,5 +20,12 @@ router.get('/chat',[passportCallLogin("jwt"), authorization("USER_ROLE")], viewC
 router.get('/login', viewLogin );
 
 router.get('/register', viewRegister );
+
+router.get('/restore', viewRestore );
+
+router.get('/restorePassword',[passportCallRestore("jwtRestore")], viewRestorePassword );
+
+router.get('/failRestorePassword', viewRestoreFail );
+
 
 export default router;

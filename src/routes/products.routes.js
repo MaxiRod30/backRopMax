@@ -20,7 +20,7 @@ router.get('/:pid',[
 
 router.post('/',[
     passportCall("jwt"), 
-    authorization("ADMIN_ROLE"),
+    authorization(["ADMIN_ROLE","PREMIUM_ROLE"]),
     check('title','El title es obligatorio').not().isEmpty(),
     check('description','La description es obligatorio').not().isEmpty(),
     check('code','La code es obligatorio').not().isEmpty(),
@@ -36,7 +36,7 @@ router.post('/',[
 
 router.put('/:pid',[
     passportCall("jwt"), 
-    authorization("ADMIN_ROLE"),
+    authorization(["ADMIN_ROLE","PREMIUM_ROLE"]),
     check('pid','No es un ID valido').isMongoId(),
     check('pid').custom(idProductExist),
     validarCampos
@@ -44,7 +44,7 @@ router.put('/:pid',[
 
 router.delete('/:pid',[
     passportCall("jwt"), 
-    authorization("ADMIN_ROLE"),
+    authorization(["ADMIN_ROLE","PREMIUM_ROLE"]),
     check('pid','No es un ID valido').isMongoId(),
     check('pid').custom(idProductExist),
     validarCampos

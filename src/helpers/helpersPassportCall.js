@@ -26,3 +26,16 @@ export const passportCallLogin = (strategy) => {
     })(req, res, next);
   };
 };
+
+export const passportCallRestore = (strategy) => {
+  return async (req, res, next) => {
+    passport.authenticate(strategy, (err, user, info) => {
+      if (err) return next(err);
+      if (!user){
+        return  res.redirect("/failRestorePassword")
+      }
+      req.user = user;
+      next();
+    })(req, res, next);
+  };
+};

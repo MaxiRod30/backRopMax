@@ -1,19 +1,17 @@
 import passport from "passport"
 import { Strategy, ExtractJwt as _ExtractJwt } from "passport-jwt";
-import cookieExtractor from "../helpers/helpersCookieExtractor.js";
+import {cookieExtractor, cookieExtractorRestore } from "../helpers/helpersCookieExtractor.js";
 import local from "passport-local"
 import GitHubStrategy from "passport-github2"
 
-import { usersService } from "../services/index.js"
+import { usersService , cartsService } from "../services/index.js"
 
-import CartManager from "../dao/mongo/manager/cartMongoManager.js"
 import { createHash, isValidPassword } from "../helpers/helpersBcrypt.js"
 
 const localStrategy = local.Strategy
 const JWTStrategy = Strategy;
 const ExtractJwt = _ExtractJwt;
 
-const cartManager = new CartManager()
 
 const inilitializePassport = () => {
     passport.use("register", new localStrategy({
@@ -29,7 +27,7 @@ const inilitializePassport = () => {
             const user = await usersService.findUser({ email: username })
 
             if (user) return done(null, false, { message: "User already exists" })
-            const cartNew = await cartManager.createCart()
+            const cartNew = await cartsService.createcart()
 
             const newUser = {
                 first_name,
@@ -110,6 +108,18 @@ const inilitializePassport = () => {
     )
     );
 
+    passport.use("jwtRestore", new JWTStrategy({
+        jwtFromRequest: ExtractJwt.fromExtractors([cookieExtractorRestore]),
+        secretOrKey: process.env.JWT_SECRET_KEY,
+    }, async (jwt_payload, done) => {
+        try {
+            done(null, jwt_payload);
+        } catch (error) {
+            done(error);
+        }
+    }
+    )
+    );
     passport.serializeUser((user, done) => {
         done(null, user._id)
     })

@@ -1,2 +1,14 @@
 fatal: Fatal log
 error: Error log
+error: [object Promise]
+error: [object Promise]
+error: null
+error: Error al restablecer la contraseña.
+error: Error al restablecer la contraseña.
+error: Error al restablecer la contraseña.
+error: ReferenceError: config is not defined
+error: Error: self-signed certificate in certificate chain
+error: [object Object]
+error: 127.0.0.1:3000/restorePassword
+error: 127.0.0.1:3000/restorePassword
+error: http://127.0.0.1:3000/restorePassword

@@ -54,7 +54,7 @@ export const productsGetId = async (req = request, res = response) => {
 
 export const productsPost = async(req = request , res = response) => {
 
-    let {title,description,code,price, status, category, thumbnail, stock} = req.body;
+    let {title,description,code,price, status, category, thumbnail, stock , owner} = req.body;
     
     try {
         const productFound = await productsService.getProductsbyCode(code)
@@ -69,7 +69,8 @@ export const productsPost = async(req = request , res = response) => {
             status: status ?? true, 
             category, 
             thumbnail : thumbnail ?? "[]", 
-            stock
+            stock,
+            owner
         }
         
         await productsService.createProduct(newProduct)

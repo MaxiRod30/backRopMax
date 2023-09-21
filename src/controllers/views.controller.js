@@ -166,3 +166,36 @@ export const viewsFailLogin = async (req = request, res = response) => {
 		return res.status(500).json({ error: err.message });
 	};
 }
+
+export const viewRestore = async (req = request, res = response) => {
+	try {
+		return res.status(200).render("restore", {
+			documentTitle: "Restaurar contraseña"
+		});
+	} catch (err) {
+		return res.status(500).json({ error: err.message });
+	};
+}
+
+
+export const viewRestorePassword = async (req = request, res = response) => {
+	try {
+		return res.status(200).render("restorePassword", {
+			documentTitle: "Restaurar contraseña"
+		});
+	} catch (err) {
+		return res.status(500).json({ error: err.message });
+	};
+}
+
+export const viewRestoreFail = async (req = request, res = response) => {
+	try {
+		res.clearCookie("restore")
+
+		return res.status(200).render("failRestorePassword", {
+			documentTitle: "Error"
+		});
+	} catch (err) {
+		return res.status(500).json({ error: err.message });
+	};
+}

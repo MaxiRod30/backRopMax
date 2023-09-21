@@ -109,6 +109,5 @@ export default class MyServer {
             logger.info(`Servidor corriendo en puerto ${this.port}`)
         });
     }
-
 }
 

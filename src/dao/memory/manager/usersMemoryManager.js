@@ -19,5 +19,9 @@ export default class UserMemoryManager {
     findId = async (id)=>{
       return this.users.find(e => e == id)
     }
+
+    updateUser = (id,user) =>{
+
+    }
   }
   

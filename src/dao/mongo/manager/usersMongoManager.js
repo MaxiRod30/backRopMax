@@ -23,4 +23,9 @@ export default class Users {
         let result = await userModel.findById(id)
         return result
     }
+
+    updateIdUser = async (filter, campo) => {
+         let result = await userModel.updateOne(filter, campo);
+         return result
+      };
 }

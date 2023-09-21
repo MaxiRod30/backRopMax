@@ -18,5 +18,9 @@ export default class serviceUsers {
     findIdUser = (id) =>{
       return this.dao.findId(id);
     }
+
+    updateUser = (filter, campo) =>{
+      return this.dao.updateIdUser(filter, campo);
+    }
   }
   

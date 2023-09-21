@@ -1,6 +1,6 @@
 import { Router } from "express";
 import passport from "passport";
-import { passportCall } from "../helpers/helpersPassportCall.js";
+import { passportCall,passportCallRestore } from "../helpers/helpersPassportCall.js";
 import usersController from "../controllers/users.controller.js";
 
 const router = Router();
@@ -16,5 +16,9 @@ router.get("/github", passport.authenticate("github"),usersController.github );
 router.get("/githubcallback", passport.authenticate("github"),usersController.githubcallback);
 
 router.get("/current", [ passportCall("jwt")], usersController.current)
+
+router.post("/restorePassword", usersController.restorePassword)
+
+router.post('/restoreNewPassword',[passportCallRestore("jwtRestore")], usersController.restoreNewPassword );
 
 export default router;
