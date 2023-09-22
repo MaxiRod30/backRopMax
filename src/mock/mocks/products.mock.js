@@ -11,7 +11,8 @@ export const generateProducts = () => {
     code: faker.random.alphaNumeric(8),
     stock: faker.random.numeric(2),
     category: faker.commerce.productMaterial(),
-    status: true
+    status: true,
+    onwer:"admin@mail"
 
   };
 };

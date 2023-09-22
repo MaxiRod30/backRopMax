@@ -12,3 +12,51 @@ error: [object Object]
 error: 127.0.0.1:3000/restorePassword
 error: 127.0.0.1:3000/restorePassword
 error: http://127.0.0.1:3000/restorePassword
+error: [object Object]
+error: {
+  _id: new ObjectId("650c92232efbf4c6c095031e"),
+  title: 'Práctico Ladrillo Ordenador',
+  description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+  price: 710,
+  thumbnail: [
+    'https://www.blogdelfotografo.com/wp-content/uploads/2020/12/producto_fondo_negro.webp'
+  ],
+  code: 'qx6WBf04',
+  stock: 72,
+  category: 'Granito',
+  status: true,
+  owner: 'max.edw.rod@gmail.com',
+  __v: 0
+}
+error: {"user":{"_id":"650c92002efbf4c6c095030d","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$4EkqP2kblHP0ylLP54aePOkQmyKyOm7lYedeX3cw/K32DtKfNN9KC","cart":"650c91ff2efbf4c6c095030b","rol":"PREMIUM_ROLE","__v":0},"iat":1695322824,"exp":1695323124}
+error: {
+  _id: new ObjectId("650c92232efbf4c6c095031e"),
+  title: 'Práctico Ladrillo Ordenador',
+  description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+  price: 710,
+  thumbnail: [
+    'https://www.blogdelfotografo.com/wp-content/uploads/2020/12/producto_fondo_negro.webp'
+  ],
+  code: 'qx6WBf04',
+  stock: 72,
+  category: 'Granito',
+  status: true,
+  owner: 'max.edw.rod@gmail.com',
+  __v: 0
+}
+error: {"_id":"650c92002efbf4c6c095030d","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$4EkqP2kblHP0ylLP54aePOkQmyKyOm7lYedeX3cw/K32DtKfNN9KC","cart":"650c91ff2efbf4c6c095030b","rol":"PREMIUM_ROLE","__v":0}
+error: {
+  _id: new ObjectId("650c92232efbf4c6c095031e"),
+  title: 'Práctico Ladrillo Ordenador',
+  description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+  price: 710,
+  thumbnail: [
+    'https://www.blogdelfotografo.com/wp-content/uploads/2020/12/producto_fondo_negro.webp'
+  ],
+  code: 'qx6WBf04',
+  stock: 72,
+  category: 'Granito',
+  status: true,
+  owner: 'max.edw.rod@gmail.com',
+  __v: 0
+}

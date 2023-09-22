@@ -3,7 +3,7 @@ import { Router } from 'express';
 import  {cartsPostPurchase, cartsDeleteAllProducts, cartsPutUpdateProduct ,cartsPutUpdate, cartsDelete, cartsGet,cartsGetId,cartsPost,cartsPostAddProduct, cartsDeleteProductById} from '../controllers/carts.controller.js';
 import { validarCampos } from '../middlewares/validarCampos.js';
 import { check } from 'express-validator';
-import { idCartExist,idProductExist } from '../helpers/db-validators.js'
+import { validarRolePremium, idCartExist,idProductExist } from '../helpers/db-validators.js'
 import { passportCall } from '../helpers/helpersPassportCall.js';
 import authorization from '../middlewares/authorization.middlewares.js';
 
@@ -14,11 +14,12 @@ router.get('/carts/:cid',[passportCall("jwt")], cartsGetId );
 router.post('/carts',[passportCall("jwt")], cartsPost );
 router.post('/carts/:cid/product/:pid',[
     passportCall("jwt"),
-    authorization("USER_ROLE"),
+    authorization(["USER_ROLE", "PREMIUM_ROLE"]),
     check('cid','No es un ID valido').isMongoId(),
     check('pid','No es un ID valido').isMongoId(),
     check('cid').custom(idCartExist),
     check('pid').custom(idProductExist),
+    check('pid').custom(validarRolePremium),
     validarCampos
 ], cartsPostAddProduct );
 

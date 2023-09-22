@@ -2324,3 +2324,343 @@ info: Base de datos online
 info: Base de datos online
 http: POST en /api/sessions/login - Thu Sep 21 2023 02:41:26 GMT-0300 (hora estándar de Uruguay)
 http: POST en /api/products/ - Thu Sep 21 2023 02:41:32 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15864'
+info: Child process started with PID '7028'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/mockingproducts - Thu Sep 21 2023 15:56:02 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 21 2023 15:56:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Thu Sep 21 2023 15:56:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /register - Thu Sep 21 2023 15:56:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 15:56:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 15:56:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/register.js - Thu Sep 21 2023 15:56:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 15:56:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 15:56:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 15:56:41 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Thu Sep 21 2023 15:57:03 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Thu Sep 21 2023 15:57:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 15:57:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 15:57:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Thu Sep 21 2023 15:57:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Thu Sep 21 2023 15:57:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Thu Sep 21 2023 15:57:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Thu Sep 21 2023 15:57:07 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Thu Sep 21 2023 15:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 15:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Thu Sep 21 2023 15:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 15:57:11 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 21 2023 15:57:35 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/mockingproducts - Thu Sep 21 2023 15:57:39 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 21 2023 16:00:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products/ - Thu Sep 21 2023 16:00:33 GMT-0300 (hora estándar de Uruguay)
+http: DELETE en /api/products/650c92232efbf4c6c095031e - Thu Sep 21 2023 16:00:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products/ - Thu Sep 21 2023 16:01:31 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '14760'
+info: Child process started with PID '17368'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: DELETE en /api/products/650c92232efbf4c6c095031e - Thu Sep 21 2023 16:02:32 GMT-0300 (hora estándar de Uruguay)
+error: [object Object]
+error: {
+  _id: new ObjectId("650c92232efbf4c6c095031e"),
+  title: 'Práctico Ladrillo Ordenador',
+  description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+  price: 710,
+  thumbnail: [
+    'https://www.blogdelfotografo.com/wp-content/uploads/2020/12/producto_fondo_negro.webp'
+  ],
+  code: 'qx6WBf04',
+  stock: 72,
+  category: 'Granito',
+  status: true,
+  owner: 'max.edw.rod@gmail.com',
+  __v: 0
+}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '3636'
+info: Child process started with PID '23768'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: DELETE en /api/products/650c92232efbf4c6c095031e - Thu Sep 21 2023 16:03:17 GMT-0300 (hora estándar de Uruguay)
+error: {"user":{"_id":"650c92002efbf4c6c095030d","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$4EkqP2kblHP0ylLP54aePOkQmyKyOm7lYedeX3cw/K32DtKfNN9KC","cart":"650c91ff2efbf4c6c095030b","rol":"PREMIUM_ROLE","__v":0},"iat":1695322824,"exp":1695323124}
+error: {
+  _id: new ObjectId("650c92232efbf4c6c095031e"),
+  title: 'Práctico Ladrillo Ordenador',
+  description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+  price: 710,
+  thumbnail: [
+    'https://www.blogdelfotografo.com/wp-content/uploads/2020/12/producto_fondo_negro.webp'
+  ],
+  code: 'qx6WBf04',
+  stock: 72,
+  category: 'Granito',
+  status: true,
+  owner: 'max.edw.rod@gmail.com',
+  __v: 0
+}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '22564'
+info: Child process started with PID '4248'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: DELETE en /api/products/650c92232efbf4c6c095031e - Thu Sep 21 2023 16:03:47 GMT-0300 (hora estándar de Uruguay)
+error: {"_id":"650c92002efbf4c6c095030d","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$4EkqP2kblHP0ylLP54aePOkQmyKyOm7lYedeX3cw/K32DtKfNN9KC","cart":"650c91ff2efbf4c6c095030b","rol":"PREMIUM_ROLE","__v":0}
+error: {
+  _id: new ObjectId("650c92232efbf4c6c095031e"),
+  title: 'Práctico Ladrillo Ordenador',
+  description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+  price: 710,
+  thumbnail: [
+    'https://www.blogdelfotografo.com/wp-content/uploads/2020/12/producto_fondo_negro.webp'
+  ],
+  code: 'qx6WBf04',
+  stock: 72,
+  category: 'Granito',
+  status: true,
+  owner: 'max.edw.rod@gmail.com',
+  __v: 0
+}
+http: POST en /api/sessions/login - Thu Sep 21 2023 16:09:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Thu Sep 21 2023 16:09:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Thu Sep 21 2023 16:09:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/carousel.css - Thu Sep 21 2023 16:09:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:09:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/cardVenta.css - Thu Sep 21 2023 16:09:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/carousel.rtl.css - Thu Sep 21 2023 16:09:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Thu Sep 21 2023 16:09:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/cardVenta.css - Thu Sep 21 2023 16:09:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:09:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/carousel.rtl.css - Thu Sep 21 2023 16:09:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Thu Sep 21 2023 16:09:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/carousel.css - Thu Sep 21 2023 16:10:00 GMT-0300 (hora estándar de Uruguay)
+http: GET en /cart - Thu Sep 21 2023 16:10:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 16:10:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 16:10:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 16:10:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 16:10:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:10:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Thu Sep 21 2023 16:10:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/carousel.rtl.css - Thu Sep 21 2023 16:10:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/cardVenta.css - Thu Sep 21 2023 16:10:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Thu Sep 21 2023 16:10:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/carousel.css - Thu Sep 21 2023 16:10:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:10:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:10:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Thu Sep 21 2023 16:10:36 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Thu Sep 21 2023 16:10:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 16:10:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 16:10:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Thu Sep 21 2023 16:10:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 16:10:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 16:10:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Thu Sep 21 2023 16:10:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:10:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 16:10:44 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Thu Sep 21 2023 16:10:46 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Thu Sep 21 2023 16:10:48 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Thu Sep 21 2023 16:10:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Sep 21 2023 16:10:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Thu Sep 21 2023 16:10:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Sep 21 2023 16:10:51 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '4352'
+info: Child process started with PID '18140'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '21396'
+info: Child process started with PID '19680'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /api/products/ - Thu Sep 21 2023 20:55:09 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 21 2023 20:55:51 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products/ - Thu Sep 21 2023 20:56:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Sep 21 2023 20:56:19 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/carts/64d253fd60c0adb3371944a8/product/650c92232efbf4c6c0950320 - Thu Sep 21 2023 20:56:49 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/carts/64d253fd60c0adb3371944a8/product/650c92232efbf4c6c0950322 - Thu Sep 21 2023 20:57:40 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '11240'
+info: Child process started with PID '16940'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Thu Sep 21 2023 20:59:15 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/carts/64d253fd60c0adb3371944a8/product/650c92232efbf4c6c0950322 - Thu Sep 21 2023 20:59:23 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15016'
+info: Child process started with PID '21596'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Thu Sep 21 2023 21:19:40 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Sep 21 2023 21:19:52 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23388'
+info: Child process started with PID '1700'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Thu Sep 21 2023 21:22:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Sep 21 2023 21:22:07 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/premium/650c92002efbf4c6c095030d - Thu Sep 21 2023 21:22:40 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23676'
+info: Child process started with PID '23280'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Thu Sep 21 2023 21:24:10 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/premium/650c92002efbf4c6c095030d - Thu Sep 21 2023 21:24:15 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Sep 21 2023 21:24:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Sep 21 2023 21:25:21 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '5084'
+info: Child process started with PID '7032'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Thu Sep 21 2023 21:27:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Sep 21 2023 21:27:17 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/premium/650c92002efbf4c6c095030d - Thu Sep 21 2023 21:27:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Sep 21 2023 21:27:26 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 21 2023 21:27:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Sep 21 2023 21:27:32 GMT-0300 (hora estándar de Uruguay)

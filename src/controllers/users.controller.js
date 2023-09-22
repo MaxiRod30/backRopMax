@@ -108,6 +108,28 @@ const restoreNewPassword = async (req, res) => {
     }
 };
 
+const rolUsersPremium = async (req, res) => {
+
+	const id = req.params.uid
+
+	const user = await usersService.findIdUser(id)
+
+	if (!user) return res.status(404).send({ status: "error", error: "No exite usuario" })
+
+	if(user.rol == "PREMIUM_ROLE"){
+		const userMod = await usersService.updateUser({_id:id}, {rol : "USER_ROLE"})
+		res.clearCookie("authToken")
+		return res.status(200).send({ status: 'success', message: "Se realizo el cambio a USER" });
+	}
+	if(user.rol == "USER_ROLE"){
+		const userMod = await usersService.updateUser({_id:id}, {rol : "PREMIUM_ROLE"})
+		res.clearCookie("authToken")
+		return res.status(200).send({ status: 'success', message: "Se realizo el cambio a PREMIUM" });
+	}
+
+	res.status(404).send({ status: "error", error: "Solo permite modificar ROL USER y PREMIUM" })
+};
+
 export default {
 	login,
 	register,
@@ -116,5 +138,6 @@ export default {
 	githubcallback,
 	current,
 	restorePassword,
-	restoreNewPassword
+	restoreNewPassword,
+	rolUsersPremium
 };

@@ -1,6 +1,7 @@
 import { response, request } from 'express';
 
 import { productsService } from '../services/index.js';
+import logger from '../helpers/helpersLoggers.js';
 
 export const productsGet = async (req = request, res = response) => {
     
@@ -54,7 +55,8 @@ export const productsGetId = async (req = request, res = response) => {
 
 export const productsPost = async(req = request , res = response) => {
 
-    let {title,description,code,price, status, category, thumbnail, stock , owner} = req.body;
+    let {title,description,code,price, status, category, thumbnail, stock } = req.body;
+    const { user } = req.user;
     
     try {
         const productFound = await productsService.getProductsbyCode(code)
@@ -70,7 +72,7 @@ export const productsPost = async(req = request , res = response) => {
             category, 
             thumbnail : thumbnail ?? "[]", 
             stock,
-            owner
+            owner: user.email
         }
         
         await productsService.createProduct(newProduct)
@@ -104,10 +106,26 @@ export const productsPut = async (req = request , res = response) => {
 export const productsDelete = async (req = request , res = response) => {
 
     const pid = req.params.pid;
-
+    const user = req.user.user
+    logger.error(JSON.stringify(user))
     try {    
-        await productsService.deleteProductbyId(pid);
-        return res.status(200).json({ msg: "Producto borrado!"});
+
+        const product = await productsService.getProductsbyId(pid)
+        logger.error(product)
+
+        if (product.owner == user.email){
+            if(user.rol == "PREMIUM_ROLE"){
+                await productsService.deleteProductbyId(pid);
+                return res.status(200).json({status:"success", owner: user.owner, msg: "Producto borrado!"});
+            }
+        }
+        
+        if(user.rol == "ADMIN_ROLE"){
+            await productsService.deleteProductbyId(pid);
+                return res.status(200).json({ status:"success", owner: user.owner, msg: "Producto borrado!"});
+        }
+       
+        return res.status(404).json({ status:"error" , msg: "Producto no borrado por temas de privilegios!"});
         
     } catch (error) {
         return res.status(404).json({msg: "Error en Base de datos!", error})
