@@ -107,14 +107,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{url}}/api/products/64de4a398cd99f7d13632837",
+							"raw": "{{url}}/api/products/650c92232efbf4c6c095031e",
 							"host": [
 								"{{url}}"
 							],
 							"path": [
 								"api",
 								"products",
-								"64de4a398cd99f7d13632837"
+								"650c92232efbf4c6c095031e"
 							]
 						}
 					},
@@ -365,7 +365,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{url}}/api/carts/64d253fd60c0adb3371944a8/product/64a43f977e225366e56f065d",
+							"raw": "{{url}}/api/carts/64d253fd60c0adb3371944a8/product/650c92232efbf4c6c0950322",
 							"host": [
 								"{{url}}"
 							],
@@ -374,7 +374,7 @@
 								"carts",
 								"64d253fd60c0adb3371944a8",
 								"product",
-								"64a43f977e225366e56f065d"
+								"650c92232efbf4c6c0950322"
 							]
 						}
 					},
@@ -483,13 +483,13 @@
 			]
 		},
 		{
-			"name": "Add user Admin",
+			"name": "Login user Premium",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"maxi3@mail\",\r\n    \"password\": \"1234567.\"\r\n}",
+					"raw": "{\r\n    \"email\":\"max.edw.rod@gmail.com\",\r\n    \"password\": \"q1w2e3r4t5\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -511,7 +511,63 @@
 			"response": []
 		},
 		{
-			"name": "Add user USER",
+			"name": "Restore Password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"max3@mal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/restorePassword",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"restorePassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Restore New Password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\":\"12356\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/restoreNewPassword",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"restoreNewPassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login user USER",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -567,6 +623,35 @@
 			"response": []
 		},
 		{
+			"name": "Cambio USER y PREMIUM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\":\"Maxi3\",\r\n    \"last_name\":\"Corneta\",\r\n    \"email\": \"maxi3@mail\",\r\n    \"age\": 18,\r\n    \"password\": \"1234567.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/sessions/premium/650c92002efbf4c6c095030d",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"sessions",
+						"premium",
+						"650c92002efbf4c6c095030d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Get user",
 			"request": {
 				"method": "GET",
@@ -586,6 +671,30 @@
 						"api",
 						"sessions",
 						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get logger test",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0YzJiZGU2NDBjOGJmZmVmMjBmY2ZmMiIsImZpcnN0X25hbWUiOiJtYXhpIiwibGFzdF9uYW1lIjoiYXNkIiwiZW1haWwiOiJhc2RAbWFpbCIsInBhc3N3b3JkIjoiJDJiJDEwJDZkbC5OL01rdXhWUkJ4V2IzL0k0Y2U2akNMN2h0SldNU0lvQ1k1T1VFN0Rzci5GT09VRmZXIiwicm9sIjoiVVNFUl9ST0xFIiwiX192IjowfSwiaWF0IjoxNjkxNTAxMjI4LCJleHAiOjE2OTE1MDE1Mjh9.jelTWg34tlqsagBAuOMR4k0EV8GyZhH4Zikw1lQ7qYY",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/api/loggerTest",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"loggerTest"
 					]
 				}
 			},
