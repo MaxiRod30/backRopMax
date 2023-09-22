@@ -7,6 +7,6 @@ logout.addEventListener("click", async () => {
 			"Content-Type": "application/json",
 		},
 	}).then(() => {
-		window.location.replace("/");
+		window.location.replace("/login");
 	}).catch(err => {return `Catch error: ${err}`});
 });

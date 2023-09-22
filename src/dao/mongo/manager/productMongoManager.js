@@ -29,8 +29,8 @@ export default class ProductsManager {
       return await productModel.findByIdAndDelete(id);
     };
     
-    paginateData = async (data) => {
-      return await productModel.paginate(data);
+    paginateData = async (filter, data) => {
+      return await productModel.paginate(filter, data);
     };
 
 

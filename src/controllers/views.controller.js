@@ -1,5 +1,5 @@
 import { response, request } from 'express';
-
+import ProductDTO from "../DTOs/Product.dto.js"
 import { productsService, cartsService } from '../services/index.js';
 
 
@@ -55,13 +55,12 @@ export const viewsGetProducts = async (req = request, res = response) => {
 
 		let filter = {};
 
-		const { limit = 2, page = 1, sort, query, stock } = req.query;
+		const { limit = 6, page = 1, sort, query, stock } = req.query;
 
 		if (query) {
 			filter = {
 				$or: [
-					{ category: { $regex: query, $options: "i" } },
-					{ title: { $regex: query, $options: "i" } }
+					{ category: { $regex: query, $options: "i" } }
 				],
 			};
 		}
@@ -72,11 +71,15 @@ export const viewsGetProducts = async (req = request, res = response) => {
 		const { docs, hasPrevPage, hasNextPage, prevPage, nextPage, totalPages, ...rest }
 			= await productsService.paginateProduct(filter, { page: page, limit: limit, sort: { price: sort }, lean: true });
 
-		const products = docs
+		const products = []
+		docs.forEach(element => {
+			const newProd = new ProductDTO(element)
+			products.push(newProd)
+		});
 
 		if (totalPages >= page) {
-			return res.render("listProduct", {
-				products,
+			return res.render("products", {
+				products: products,
 				page: rest.page,
 				hasPrevPage,
 				hasNextPage,
@@ -125,7 +128,7 @@ export const viewChat = (req = request, res = response) => {
 
 export const viewLogin = async (req = request, res = response) => {
 	try {
-		
+
 		if (req.user) {
 			return res.status(200).render("home", {
 				user: req.user,

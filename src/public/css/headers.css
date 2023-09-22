@@ -30,3 +30,8 @@
 .dropdown-toggle {
   outline: 0;
 }
+
+
+.clicked {
+  color: rgb(138, 133, 133)!important; 
+}

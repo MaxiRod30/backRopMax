@@ -27,7 +27,7 @@ export default class productMemoryManager {
       // Borrar los productos por id
     };
 
-    paginateData = async (data) => {
+    paginateData = async (filter, data) => {
         // Paginar los productos
     };
   }

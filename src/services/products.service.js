@@ -27,8 +27,8 @@ export default class serviceProducts {
         return this.dao.deleteProducts(id);
     }
 
-    paginateProduct = (data) =>{
-        return this.dao.paginateData(data);
+    paginateProduct = (filter,data) =>{
+        return this.dao.paginateData(filter, data);
     }
   }
   

@@ -60,3 +60,4 @@ error: {
   owner: 'max.edw.rod@gmail.com',
   __v: 0
 }
+fatal: Error base de datos MongooseServerSelectionError: Server selection timed out after 30000 ms

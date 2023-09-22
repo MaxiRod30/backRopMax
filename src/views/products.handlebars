@@ -1,59 +1,78 @@
-<div class="home-container">
-	<h1 class="home-title d-flex justify-content-center">Products</h1>
-        <div class="px-3 py-2 border-bottom mb-3">
-            <div class="container d-flex flex-wrap justify-content-center">
-              <form class="d-flex col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-                <input type="search" id ="buscador" class="form-control" placeholder="Buscar por categoria" aria-label="Buscar">
-                <button id="btnBuscar" class="btn btn-primary" type="button">Search</button>
-                </form>
-                <form class="d-flex col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-                    <input type="search" id ="buscadorStock" class="form-control" placeholder="Buscar por stock" aria-label="Buscar">
-                    <button id="btnBuscarStock" class="btn btn-primary" type="button">Search</button>
-                </form>
-            <div>
-            <select id="optionOrden" class="form-select form-select-sm" aria-label=".form-select-sm example">
-                <option selected>Ordenar por precio:</option>
-                <option value="1">Mayor a menor</option>
-                <option value="2">Menor a mayor</option>
-            </select>
-            </div>
-            </div>
-          </div>
+<head>
+    <link href="../css/headers.css" type="text/css" rel="stylesheet">
+</head>
 
-		{{#each products}}
-			<div class="container mt-2 mb-2">
-                <div class="d-flex justify-content-center row">
-                    <div class="col-md-10">
-                        <div class="row p-2 bg-white border rounded">
-                            <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
-                                    src="https://esonlineservice.com/wp-content/uploads/2019/10/PLC-Logo-24CE-Siemen-1.jpg"></div>
-                            <div class="col-md-6 mt-1">
-                                <h5>{{this}}</h5>
-                                <div class="d-flex flex-row">
-                                </div>
-                                <h6>{{this.category}}</h6>
-                                <p class="text-justify  para mb-0">{{this.description}}<br><br></p>
-                            </div>
-                            <div class="align-items-center align-content-center col-md-3 border-left mt-1">
-                                <div class="d-flex flex-row align-items-center">
-                                    <h4 class="mr-1">$ {{this.price}}</h4>
-                                </div>
-                                <div class="d-flex flex-column mt-4"><button class="btn btn-outline-primary btn-sm mt-2"
-                                   onclick={addProduct({{this}})} type="button">Agregar a carrito</button></div>
-                            </div>
+<div class="home-container">
+    <h1 class="home-title d-flex justify-content-center">Products</h1>
+    <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+            <form class="d-flex col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+                <input type="search" id="buscador" class="form-control" placeholder="Buscar por categoria"
+                    aria-label="Buscar">
+                <button id="btnBuscar" class="btn btn-primary" type="button">Search</button>
+            </form>
+            <form class="d-flex col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+                <input type="search" id="buscadorStock" class="form-control" placeholder="Buscar por stock"
+                    aria-label="Buscar">
+                <button id="btnBuscarStock" class="btn btn-primary" type="button">Search</button>
+            </form>
+            <div>
+                <select id="optionOrden" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Ordenar por precio:</option>
+                    <option value="1">Mayor a menor</option>
+                    <option value="2">Menor a mayor</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    {{#each products}}
+    <div class="container mt-2 mb-2">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10">
+                <div class="row p-2 bg-white border rounded">
+                    <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                            src={{this.thumbnail}}></div>
+                    <div class="col-md-6 mt-1">
+                        <h5>{{this.title}}</h5>
+                        <div class="d-flex flex-row">
                         </div>
+                        <h6>{{this.category}}</h6>
+                        <p class="text-justify  para mb-0">{{this.description}}<br><br></p>
+                    </div>
+                    <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                        <div class="d-flex flex-row align-items-center">
+                            <h4 class="mr-1">$ {{this.price}}</h4>
+                        </div>
+
+                        {{#if this.stock}}
+                            <h6 class="text-danger">Stock: {{this.stock}}</h6>
+
+                            <div class="d-flex flex-column mt-4"><button class="btn btn-outline-primary btn-sm mt-2"
+                                    onclick={addProduct(1)} type="button">Agregar a carrito</button>
+                            </div>
+                        {{else}}
+                            <h1 class="display-1 text-danger">¡No hay stock!</h1>
+                        {{/if}}
+
                     </div>
                 </div>
-            </div> 
+            </div>
+        </div>
+    </div>
 
-		{{/each}}
-        <nav class="d-flex justify-content-center m-3">
-            <ul class="pagination"></ul>
-                <li style="list-style-type: none;" class="page-item"><a class="page-link" {{#if hasPrevPage}} href="./?page={{prevPage}}" {{/if}}> << </a></li>
-                <li style="list-style-type: none;" class="page-item"><a class="page-link" href="">{{page}}</a></li>
-                <li style="list-style-type: none;" class="page-item"><a class="page-link"  {{#if hasNextPage}}href="./?page={{nextPage}}"{{/if}}> >> </a></li>
-            </ul> 
-        </nav>        
+    {{/each}}
+    <nav class="d-flex justify-content-center m-3">
+        <ul class="pagination"></ul>
+        <li style="list-style-type: none;" class="page-item"><a class="page-link" {{#if hasPrevPage}}
+                href="./?page={{prevPage}}" {{/if}}>
+                << </a>
+        </li>
+        <li style="list-style-type: none;" class="page-item"><a class="page-link" href="">{{page}}</a></li>
+        <li style="list-style-type: none;" class="page-item"><a class="page-link" {{#if
+                hasNextPage}}href="./?page={{nextPage}}" {{/if}}> >> </a></li>
+        </ul>
+    </nav>
 </div>
 
 <script src="/js/products.js"></script>
