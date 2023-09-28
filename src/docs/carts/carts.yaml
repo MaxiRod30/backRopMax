@@ -1,0 +1,229 @@
+openapi: 3.1.0
+info:
+  title: 'Ecommerce'
+  version: '1.0.0'
+  description: 'API Backend RopMax'
+  contact:
+    name: 'Maximiliano Rodriguez'
+servers:
+  - url: 'http://localhost:3000' 
+paths:
+  /api/carts:
+    get:
+      summary: Get all carts
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Cart'
+        '401':
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
+    post:
+      summary: Create a new cart
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  msg:
+                    type: string
+        '401':
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
+
+  /api/carts/{cartId}:
+    get:
+      summary: Get a cart by ID
+      parameters:
+        - name: cartId
+          in: path
+          required: true
+          description: ID of the cart
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Cart'
+        '401':
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+    put:
+      summary: Update a cart by ID
+      parameters:
+        - name: cartId
+          in: path
+          required: true
+          description: ID of the cart
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                products:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      idproduct:
+                        type: string
+                        format: ObjectId
+                        description: ID of the product to add to the cart
+                      quantity:
+                        type: number
+                      _id:
+                        type: string
+                        format: ObjectId
+              required:
+                - products
+
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Cart'
+        '401':
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+  
+  /api/cart/{cartId}:
+    delete:
+      summary: Delete a cart by ID
+      parameters:
+        - name: cartId
+          in: path
+          required: true
+          description: ID of the cart
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  msg:
+                    type: string
+          '401':
+            description: No auth token
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    error:
+                      type: string
+
+  /api/carts/{cartId}/items/{itemId}:
+    delete:
+      summary: Delete an item from the cart
+      parameters:
+        - name: cartId
+          in: path
+          required: true
+          description: ID of the cart
+          schema:
+            type: string
+        - name: itemId
+          in: path
+          required: true
+          description: ID of the item to delete
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  msg:
+                    type: string
+          '401':
+            description: No auth token
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    error:
+                      type: string
+components:
+  schemas:
+    Cart:
+      type: object
+      properties:
+        status:
+          type: string
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              _id:
+                type: string
+              products:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    idproduct: 
+                      type: string
+                    quantity: 
+                      type: number  
+                    _id: 
+                      type: string  
+
+      

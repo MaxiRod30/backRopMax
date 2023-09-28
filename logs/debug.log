@@ -5557,3 +5557,829 @@ http: GET en /js/headers.js - Fri Sep 22 2023 13:50:00 GMT-0300 (hora estándar 
 http: GET en /js/logout.js - Fri Sep 22 2023 13:50:00 GMT-0300 (hora estándar de Uruguay)
 http: GET en /css/headers.css - Fri Sep 22 2023 13:50:00 GMT-0300 (hora estándar de Uruguay)
 http: GET en /js/products.js - Fri Sep 22 2023 13:50:00 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Child process started with PID '16924'
+info: Child process started with PID '22656'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en / - Mon Sep 25 2023 13:06:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Sep 25 2023 13:06:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Sep 25 2023 13:06:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Sep 25 2023 13:06:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Sep 25 2023 13:06:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Sep 25 2023 13:06:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Mon Sep 25 2023 13:06:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /restore - Mon Sep 25 2023 13:06:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Sep 25 2023 13:06:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Sep 25 2023 13:06:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Sep 25 2023 13:06:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/restore.js - Mon Sep 25 2023 13:06:27 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/restorePassword - Mon Sep 25 2023 13:06:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Sep 25 2023 13:06:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Sep 25 2023 13:06:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Sep 25 2023 13:06:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Sep 25 2023 13:06:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Sep 25 2023 13:06:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /restorePassword - Mon Sep 25 2023 13:06:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Sep 25 2023 13:06:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Sep 25 2023 13:06:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Sep 25 2023 13:06:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/restoreNewPassword.js - Mon Sep 25 2023 13:06:48 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '24172'
+info: Child process started with PID '19468'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en / - Wed Sep 27 2023 22:48:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Wed Sep 27 2023 22:48:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Wed Sep 27 2023 22:48:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Wed Sep 27 2023 22:48:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Wed Sep 27 2023 22:48:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Wed Sep 27 2023 22:48:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs - Wed Sep 27 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/ - Wed Sep 27 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Wed Sep 27 2023 22:48:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Wed Sep 27 2023 22:48:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Wed Sep 27 2023 22:48:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Wed Sep 27 2023 22:48:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Wed Sep 27 2023 22:48:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Wed Sep 27 2023 22:48:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Wed Sep 27 2023 22:48:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /carts - Wed Sep 27 2023 22:49:00 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Wed Sep 27 2023 22:55:12 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Wed Sep 27 2023 22:55:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Wed Sep 27 2023 22:55:37 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '13892'
+info: Child process started with PID '16336'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 22:57:39 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 22:57:39 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 22:57:39 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 22:57:39 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 22:57:39 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 22:57:39 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '24332'
+info: Child process started with PID '15352'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '11796'
+info: Child process started with PID '3904'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:03:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:03:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:03:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:03:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:03:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:03:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Wed Sep 27 2023 23:03:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Wed Sep 27 2023 23:05:06 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '26312'
+info: Child process started with PID '7564'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:06:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:06:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:06:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:06:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:06:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:06:04 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Wed Sep 27 2023 23:08:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Wed Sep 27 2023 23:08:18 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18816'
+info: Child process started with PID '25616'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:15:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:15:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:15:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:15:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:15:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:15:55 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '13544'
+info: Child process started with PID '17236'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:17:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:17:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:17:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:17:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:17:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:17:11 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17548'
+info: Child process started with PID '14388'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:19:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:19:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:19:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:19:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:19:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:19:17 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '5676'
+info: Child process started with PID '14056'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:20:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:20:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:20:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:20:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:20:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:20:53 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '2336'
+info: Child process started with PID '21868'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:35:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:35:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:35:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:35:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:35:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:35:05 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '24372'
+info: Child process started with PID '26136'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:41:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:41:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:41:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:41:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:41:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:41:07 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '16640'
+info: Child process started with PID '23964'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:41:51 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:41:51 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:41:51 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:41:51 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:41:51 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:41:52 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '3376'
+info: Child process started with PID '24448'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:42:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:42:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:42:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:42:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:42:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:42:11 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '2424'
+info: Child process started with PID '20988'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:45:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:45:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:45:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:45:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:45:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:45:49 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '752'
+info: Child process started with PID '24508'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:47:09 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17680'
+info: Base de datos online
+info: Child process started with PID '5876'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:48:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:48:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:48:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:48:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:48:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:48:08 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15240'
+info: Child process started with PID '20844'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:50:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:50:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:50:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:50:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:50:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:50:24 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '26408'
+info: Child process started with PID '24104'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:51:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:51:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:51:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:51:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:51:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:51:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/ - Wed Sep 27 2023 23:51:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:51:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:51:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:51:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:51:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:51:44 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '3540'
+info: Child process started with PID '3028'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:54:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:54:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:54:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:54:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:54:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:54:10 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '7704'
+info: Child process started with PID '10424'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:54:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:54:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:54:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:54:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:54:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:54:59 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '25276'
+info: Servidor corriendo en puerto 3000
+info: Child process started with PID '17216'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:55:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:55:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:55:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:55:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:55:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:55:20 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '24620'
+info: Child process started with PID '8476'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:57:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:57:10 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '19268'
+info: Child process started with PID '3116'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:58:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:58:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:58:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:58:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:58:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:58:49 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18752'
+info: Child process started with PID '5592'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Wed Sep 27 2023 23:59:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Wed Sep 27 2023 23:59:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Wed Sep 27 2023 23:59:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Wed Sep 27 2023 23:59:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Wed Sep 27 2023 23:59:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Wed Sep 27 2023 23:59:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Sep 28 2023 00:00:08 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '11544'
+info: Child process started with PID '23064'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:04:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:04:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:04:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:04:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:04:11 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:04:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Sep 28 2023 00:04:29 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 28 2023 00:04:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Sep 28 2023 00:04:55 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/carts - Thu Sep 28 2023 00:06:22 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '25476'
+info: Child process started with PID '14712'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:10:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:10:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:10:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:10:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:10:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:10:56 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/carts - Thu Sep 28 2023 00:11:28 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 28 2023 00:14:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts/64d253fd60c0adb3371944a8 - Thu Sep 28 2023 00:14:52 GMT-0300 (hora estándar de Uruguay)
+http: PUT en /api/carts/64a4507ad5b0cd1f085b2652 - Thu Sep 28 2023 00:23:21 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 28 2023 00:23:25 GMT-0300 (hora estándar de Uruguay)
+http: PUT en /api/carts/64a4507ad5b0cd1f085b2652 - Thu Sep 28 2023 00:23:27 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '25792'
+info: Child process started with PID '24996'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:24:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:24:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:24:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:24:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:24:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:24:09 GMT-0300 (hora estándar de Uruguay)
+http: DELETE en /api/carts/64af44789dbd443d4e2172f5 - Thu Sep 28 2023 00:28:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Sep 28 2023 00:28:07 GMT-0300 (hora estándar de Uruguay)
+http: DELETE en /api/cart/64d25745898d2eb04de297d3 - Thu Sep 28 2023 00:28:23 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '21016'
+info: Child process started with PID '17688'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:30:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:30:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:30:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:30:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:30:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:30:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products/ - Thu Sep 28 2023 00:32:52 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Sep 28 2023 00:32:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products/ - Thu Sep 28 2023 00:33:00 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '26080'
+info: Child process started with PID '9272'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:48:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:48:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:48:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:48:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:48:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:48:35 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '14772'
+info: Child process started with PID '14300'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:50:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:50:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:50:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:50:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:50:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:50:54 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17452'
+info: Child process started with PID '26336'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:53:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:53:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:53:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:53:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:53:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:53:05 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '25352'
+info: Child process started with PID '17856'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:54:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:54:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:54:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:54:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:54:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:54:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/ - Thu Sep 28 2023 00:55:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:55:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:55:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:55:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:55:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:55:14 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23792'
+info: Child process started with PID '20368'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 00:56:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 00:56:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 00:56:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 00:56:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 00:56:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 00:56:38 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '22100'
+info: Child process started with PID '21332'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:00:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:00:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:00:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:00:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:00:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:00:05 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15620'
+info: Child process started with PID '14964'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:00:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:00:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:00:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:00:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:00:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:00:35 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '9620'
+info: Child process started with PID '25820'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:01:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:01:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:01:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:01:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:01:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:01:02 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '20028'
+info: Child process started with PID '4496'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:02:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:02:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:02:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:02:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:02:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:02:27 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17804'
+info: Child process started with PID '16292'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:03:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:03:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:03:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:03:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:03:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:03:24 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/ - Thu Sep 28 2023 01:05:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:05:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:05:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:05:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:05:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:05:52 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '3048'
+info: Child process started with PID '3360'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:07:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:07:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:07:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:07:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:07:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:07:59 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17048'
+info: Child process started with PID '11076'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:09:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:09:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:09:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:09:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:09:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:09:14 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17316'
+info: Child process started with PID '24408'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:09:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:09:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:09:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:09:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:09:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:09:57 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15212'
+info: Child process started with PID '17640'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:11:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:11:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:11:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:11:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:11:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:11:16 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15176'
+info: Child process started with PID '1836'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:11:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:11:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:11:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:11:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:11:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:11:56 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '768'
+info: Child process started with PID '16376'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:12:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:12:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:12:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:12:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:12:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:12:41 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17924'
+info: Child process started with PID '25564'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:14:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:14:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:14:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:14:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:14:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:14:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/ - Thu Sep 28 2023 01:14:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:14:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:14:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:14:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:14:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:14:11 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '11524'
+info: Child process started with PID '20084'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /docs/ - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui.css - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
+http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)

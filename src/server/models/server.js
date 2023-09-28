@@ -11,10 +11,13 @@ import cookieParser from "cookie-parser";
 import { port } from "../../config/app.config.js";
 import session from "express-session";
 import MongoStore from "connect-mongo";
-import {dbMongoAtlas} from "../../config/db.config.js"
+import { dbMongoAtlas } from "../../config/db.config.js"
 import cors from "cors";
 import morgan from 'morgan';
 import logger, { addLogger } from '../../helpers/helpersLoggers.js';
+import swaggerJSDoc from "swagger-jsdoc";
+import swaggerUiExpress from "swagger-ui-express";
+import { swaggerOptions } from '../../config/swagger.config.js';
 
 export default class MyServer {
 
@@ -31,16 +34,19 @@ export default class MyServer {
         this.viewsPath = '/';
         this.sessionsPath = '/api/sessions';
 
- 
+
         // Session
         this.sesion();
 
         //Middlewares
         this.middlewares();
-        
+
+        // Config swagger
+        this.swagger();
+
         //Handlebars
         this.handlebars();
-        
+
         //Cookies
         this.cookies();
 
@@ -49,6 +55,13 @@ export default class MyServer {
 
         // Sockets
         this.sockets();
+
+    }
+
+    swagger() {
+
+        const specs = swaggerJSDoc(swaggerOptions);
+        this.app.use("/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs));
 
     }
 

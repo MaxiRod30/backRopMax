@@ -1,0 +1,270 @@
+openapi: 3.1.0
+info:
+  title: "Ecommerce"
+  version: "1.0.0"
+  description: "API Backend RopMax"
+  contact:
+    name: "Maximiliano Rodriguez"
+servers:
+  - url: "http://localhost:3000"
+paths:
+  /api/products:
+    get:
+      summary: Get all products
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        "401":
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "404":
+          description: Error data base
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+    post:
+      summary: Create a new product
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  required: true
+                description:
+                  type: string
+                  required: true
+                price:
+                  type: number
+                  required: true
+                thumbnail:
+                  type: array
+                code:
+                  type: string
+                  required: true
+                stock:
+                  type: number
+                  required: true
+                category:
+                  type: string
+                  required: true
+                status:
+                  type: boolean
+                owner:
+                  type: string
+                  required: true
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        "401":
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "404":
+          description: Error data base
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
+  /api/products/{productId}:
+    get:
+      summary: Get a product by ID
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          description: ID of the product
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        "401":
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "404":
+          description: Error data base
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+    put:
+      summary: Update a product by ID
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          description: ID of the product
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  required: true
+                description:
+                  type: string
+                  required: true
+                price:
+                  type: number
+                  required: true
+                thumbnail:
+                  type: array
+                code:
+                  type: string
+                  required: true
+                stock:
+                  type: number
+                  required: true
+                category:
+                  type: string
+                  required: true
+                status:
+                  type: boolean
+                owner:
+                  type: string
+                  required: true
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        "401":
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "404":
+          description: Error data base
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+    delete:
+      summary: Delete a product by ID
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          description: ID of the product
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  msg:
+                    type: string
+        "401":
+          description: No auth token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "404":
+          description: Error data base
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        status:
+          type: string
+        payload:
+          type: array
+          items:
+            type: object
+            properties:
+              _id:
+                type: string
+              title:
+                type: string
+              description:
+                type: string
+              price:
+                type: number
+              thumbnail:
+                type: array
+              code:
+                type: string
+              stock: 
+                type: number
+              category:
+                type: string
+              status: 
+                type: boolean
+              owner: 
+                type: string

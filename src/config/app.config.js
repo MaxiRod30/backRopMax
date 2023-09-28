@@ -5,6 +5,7 @@ dotenv.config({
 });
 
 export const port = process.env.PORT || 8080;
+export const url = process.env.URL
 export const persistence = process.env.PERSISTENCE || "memory";
 export const nodemailerEMAIL = process.env.NODEMAILER_EMAIL
 export const nodemailerEMAIL_PASSWORD = process.env.NODEMAILER_EMAIL_PASSWORD
