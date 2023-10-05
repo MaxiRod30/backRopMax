@@ -6383,3 +6383,268 @@ http: GET en /docs/swagger-ui-bundle.js - Thu Sep 28 2023 01:15:32 GMT-0300 (hor
 http: GET en /docs/swagger-ui-standalone-preset.js - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
 http: GET en /docs/swagger-ui-init.js - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
 http: GET en /docs/favicon-32x32.png - Thu Sep 28 2023 01:15:32 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17380'
+info: Child process started with PID '5844'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:23:56 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:24:32 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '22476'
+info: Child process started with PID '10268'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:31:47 GMT-0300 (hora estándar de Uruguay)
+http: POST en /login - Mon Oct 02 2023 00:31:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Mon Oct 02 2023 00:33:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 02 2023 00:33:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 02 2023 00:33:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 02 2023 00:33:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 02 2023 00:33:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 02 2023 00:33:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Mon Oct 02 2023 00:33:15 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:33:24 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:33:32 GMT-0300 (hora estándar de Uruguay)
+http: GET en /restore - Mon Oct 02 2023 00:33:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 02 2023 00:33:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 02 2023 00:33:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 02 2023 00:33:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/restore.js - Mon Oct 02 2023 00:33:46 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/restorePassword - Mon Oct 02 2023 00:33:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 02 2023 00:33:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 02 2023 00:33:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 02 2023 00:33:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 02 2023 00:33:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 02 2023 00:33:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /restorePassword - Mon Oct 02 2023 00:34:03 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 02 2023 00:34:03 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 02 2023 00:34:03 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 02 2023 00:34:03 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/restoreNewPassword.js - Mon Oct 02 2023 00:34:03 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/restoreNewPassword - Mon Oct 02 2023 00:34:13 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/restoreNewPassword - Mon Oct 02 2023 00:34:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 02 2023 00:34:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 02 2023 00:34:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 02 2023 00:34:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 02 2023 00:34:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 02 2023 00:34:25 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:34:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Mon Oct 02 2023 00:34:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Mon Oct 02 2023 00:34:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 02 2023 00:34:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 02 2023 00:34:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/products.js - Mon Oct 02 2023 00:34:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 02 2023 00:34:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Mon Oct 02 2023 00:34:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 02 2023 00:34:41 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:35:08 GMT-0300 (hora estándar de Uruguay)
+http: POST en /login - Mon Oct 02 2023 00:35:09 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:36:16 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:36:23 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:37:33 GMT-0300 (hora estándar de Uruguay)
+http: POST en /login - Mon Oct 02 2023 00:37:33 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:38:00 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:38:00 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:40:32 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:40:32 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Mon Oct 02 2023 00:41:13 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 00:41:13 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15864'
+info: Conectando ...
+info: Servidor corriendo en puerto 3000
+info: Child process started with PID '11048'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/register - Mon Oct 02 2023 20:14:50 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 02 2023 20:14:51 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '16648'
+info: Child process started with PID '2900'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '4724'
+info: Child process started with PID '15220'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+http: POST en /api/sessions/register - Thu Oct 05 2023 00:52:09 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 00:52:09 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+info: Conectando ...
+http: GET en /products - Thu Oct 05 2023 00:58:28 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Thu Oct 05 2023 00:58:30 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 00:58:31 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+info: Conectando ...
+http: GET en /api/products - Thu Oct 05 2023 01:00:41 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+http: POST en /api/sessions/register - Thu Oct 05 2023 01:00:43 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 01:00:44 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+http: GET en /api/products - Thu Oct 05 2023 01:03:38 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+http: POST en /api/sessions/register - Thu Oct 05 2023 01:03:40 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 01:03:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products/ - Thu Oct 05 2023 01:04:19 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+http: POST en /api/sessions/login - Thu Oct 05 2023 01:05:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products - Thu Oct 05 2023 01:05:16 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+http: POST en /api/sessions/register - Thu Oct 05 2023 01:05:18 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 01:05:18 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '9152'
+info: Child process started with PID '1236'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+http: GET en /api/products - Thu Oct 05 2023 01:07:27 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+http: POST en /api/sessions/register - Thu Oct 05 2023 01:07:29 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 01:07:29 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18816'
+info: Child process started with PID '21624'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /api/products/ - Thu Oct 05 2023 12:59:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Oct 05 2023 13:00:36 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:00:45 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:01:06 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:01:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Thu Oct 05 2023 13:01:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Thu Oct 05 2023 13:01:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Oct 05 2023 13:01:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Thu Oct 05 2023 13:01:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Oct 05 2023 13:01:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Thu Oct 05 2023 13:01:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Thu Oct 05 2023 13:01:51 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:02:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /restore - Thu Oct 05 2023 13:02:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Oct 05 2023 13:02:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Thu Oct 05 2023 13:02:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Oct 05 2023 13:02:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/restore.js - Thu Oct 05 2023 13:02:08 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/restorePassword - Thu Oct 05 2023 13:02:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Thu Oct 05 2023 13:02:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Oct 05 2023 13:02:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Thu Oct 05 2023 13:02:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Oct 05 2023 13:02:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Thu Oct 05 2023 13:02:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /restorePassword - Thu Oct 05 2023 13:03:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Oct 05 2023 13:03:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Thu Oct 05 2023 13:03:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Oct 05 2023 13:03:50 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/restoreNewPassword.js - Thu Oct 05 2023 13:03:50 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/restoreNewPassword - Thu Oct 05 2023 13:04:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Thu Oct 05 2023 13:04:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Thu Oct 05 2023 13:04:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Thu Oct 05 2023 13:04:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Thu Oct 05 2023 13:04:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Thu Oct 05 2023 13:04:07 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:04:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Oct 05 2023 13:04:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Oct 05 2023 13:10:35 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:10:40 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Oct 05 2023 13:10:46 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/premium/651a3a6c0ae916a29f66336b - Thu Oct 05 2023 13:11:18 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+http: POST en /api/carts/64d253fd60c0adb3371944a8/product/650c92262efbf4c6c095034a - Thu Oct 05 2023 13:11:38 GMT-0300 (hora estándar de Uruguay)
+http: POST en /carts/5f9e3b3b1c9d440000d3b3b1/vaciar - Thu Oct 05 2023 13:11:39 GMT-0300 (hora estándar de Uruguay)
+http: POST en /carts/5f9e3b3b1c9d440000d3b3b1/eliminar - Thu Oct 05 2023 13:11:39 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products - Thu Oct 05 2023 13:11:39 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+http: POST en /api/sessions/register - Thu Oct 05 2023 13:11:43 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:11:43 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:14:17 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+http: POST en /api/carts/64d253fd60c0adb3371944a8/product/650c92262efbf4c6c095034a - Thu Oct 05 2023 13:14:17 GMT-0300 (hora estándar de Uruguay)
+http: POST en /carts/5f9e3b3b1c9d440000d3b3b1/vaciar - Thu Oct 05 2023 13:14:17 GMT-0300 (hora estándar de Uruguay)
+http: POST en /carts/5f9e3b3b1c9d440000d3b3b1/eliminar - Thu Oct 05 2023 13:14:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products - Thu Oct 05 2023 13:14:17 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Thu Oct 05 2023 13:14:20 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:14:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Thu Oct 05 2023 13:14:48 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18424'
+info: Child process started with PID '19120'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '20612'
+info: Child process started with PID '13400'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+http: POST en /api/carts/64d253fd60c0adb3371944a8/product/650c92262efbf4c6c095034a - Thu Oct 05 2023 13:19:46 GMT-0300 (hora estándar de Uruguay)
+http: POST en /carts/5f9e3b3b1c9d440000d3b3b1/vaciar - Thu Oct 05 2023 13:19:48 GMT-0300 (hora estándar de Uruguay)
+http: POST en /carts/5f9e3b3b1c9d440000d3b3b1/eliminar - Thu Oct 05 2023 13:19:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/products - Thu Oct 05 2023 13:19:48 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Thu Oct 05 2023 13:19:52 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Thu Oct 05 2023 13:19:57 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '3104'
+info: Child process started with PID '14088'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+fatal: Error base de datos Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.5linsyf.mongodb.net
+fatal: Error base de datos Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.5linsyf.mongodb.net
+fatal: Error base de datos Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.5linsyf.mongodb.net
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Child process started with PID '14592'
+info: Child process started with PID '21596'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Thu Oct 05 2023 19:58:53 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/carts - Thu Oct 05 2023 19:58:57 GMT-0300 (hora estándar de Uruguay)

@@ -9,7 +9,7 @@ import authorization from '../middlewares/authorization.middlewares.js';
 
 const router = Router();
 
-router.get('/',[passportCall("jwt")], productsGet );
+router.get('/', productsGet );
 
 router.get('/:pid',[
     passportCall("jwt"),
