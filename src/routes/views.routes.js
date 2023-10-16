@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import  {viewRestoreFail,viewRestorePassword,viewRestore ,viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/views.controller.js';
+import  {viewProfile,viewRestoreFail,viewRestorePassword,viewRestore ,viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/views.controller.js';
 import { passportCallRestore , passportCallLogin} from '../helpers/helpersPassportCall.js'
 import authorization from '../middlewares/authorization.middlewares.js';
 
@@ -26,6 +26,8 @@ router.get('/restore', viewRestore );
 router.get('/restorePassword',[passportCallRestore("jwtRestore")], viewRestorePassword );
 
 router.get('/failRestorePassword', viewRestoreFail );
+
+router.get('/profile',[passportCallLogin("jwt")], viewProfile );
 
 
 export default router;

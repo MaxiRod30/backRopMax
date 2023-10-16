@@ -30,10 +30,17 @@ const userSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref:"carts",
     },
+    documents:
+        [{name : String , reference: String, category: String}] 
+    ,
 	rol: {
         type: String,
         required: true,
 		default: 'USER_ROLE'
+    },
+    last_connection:{
+        type: String,
+        default: ''
     }
 });
 

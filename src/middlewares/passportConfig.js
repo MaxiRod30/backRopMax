@@ -3,6 +3,7 @@ import { Strategy, ExtractJwt as _ExtractJwt } from "passport-jwt";
 import {cookieExtractor, cookieExtractorRestore } from "../helpers/helpersCookieExtractor.js";
 import local from "passport-local"
 import GitHubStrategy from "passport-github2"
+import __dirname from '../util.js';
 
 import { usersService , cartsService } from "../services/index.js"
 
@@ -39,7 +40,7 @@ const inilitializePassport = () => {
                 cart: cartNew._id
             }
             const result = await usersService.createUser(newUser)
-
+            
             return done(null, result)
 
         } catch (error) {
@@ -77,13 +78,18 @@ const inilitializePassport = () => {
         try {
             const user = await usersService.findUser({ email: profile._json.email });
             if (!user) {
+                const cartNew = await cartsService.createcart()
                 const newUser = {
                     first_name: profile._json.name.split(" ")[0],
                     last_name: profile._json.name.split(" ")[1],
                     email: profile._json.email,
                     password: " ",
+                    age: 0,
+                    phone: 0,
+                    cart: cartNew._id
                 };
                 const result = await usersService.createUser(newUser);
+
                 return done(null, result);
             } else {
                 return done(null, user);

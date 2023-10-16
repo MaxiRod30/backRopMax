@@ -1,7 +1,7 @@
 import { response, request } from 'express';
 import ProductDTO from "../DTOs/Product.dto.js"
-import { productsService, cartsService } from '../services/index.js';
-
+import { productsService, cartsService, usersService } from '../services/index.js';
+import logger from '../helpers/helpersLoggers.js';
 
 export const viewsGet = async (req = request, res = response) => {
 	try {
@@ -197,6 +197,17 @@ export const viewRestoreFail = async (req = request, res = response) => {
 
 		return res.status(200).render("failRestorePassword", {
 			documentTitle: "Error"
+		});
+	} catch (err) {
+		return res.status(500).json({ error: err.message });
+	};
+}
+
+export const viewProfile = async (req = request, res = response) => {
+	try {
+		return res.status(200).render("profile", {
+			documentTitle: "Profile",
+			user: req.user.user
 		});
 	} catch (err) {
 		return res.status(500).json({ error: err.message });

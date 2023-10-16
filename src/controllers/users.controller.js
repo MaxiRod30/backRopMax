@@ -5,9 +5,12 @@ import logger from "../helpers/helpersLoggers.js"
 import { createHash, isValidPassword } from "../helpers/helpersBcrypt.js"
 import { sendEmailRestorePassword } from "../helpers/helpersNodemailer.js";
 
+
 const login = async (req, res) => {
 
 	if (!req.user) return res.status(400).send({ status: "error", error: "Invalid credentials" })
+	
+	const userMod = await usersService.updateUser({_id:req.user._id}, {last_connection : new Date()})
 
 	const token = generateToken(req.user, "300s");
 	return res
@@ -23,6 +26,7 @@ const register = async (req, res) => {
 const logout = async (req, res) => {
 	try {
 		res.clearCookie("authToken")
+		const userMod = await usersService.updateUser({_id:req.user._id}, {last_connection : new Date()})
 		
 		if (!req.session) return res.status(500).send({ status: `Logout error`, payload: err });
 
@@ -122,12 +126,42 @@ const rolUsersPremium = async (req, res) => {
 		return res.status(200).send({ status: 'success', message: "Se realizo el cambio a USER" });
 	}
 	if(user.rol == "USER_ROLE"){
-		const userMod = await usersService.updateUser({_id:id}, {rol : "PREMIUM_ROLE"})
-		res.clearCookie("authToken")
-		return res.status(200).send({ status: 'success', message: "Se realizo el cambio a PREMIUM" });
+		
+		if(user.documents.some(e =>e.category == "identificacion") && user.documents.some(e =>e.category == "cuenta")&&user.documents.some(e =>e.category == "domicilio")){
+			const userMod = await usersService.updateUser({_id:id}, {rol : "PREMIUM_ROLE"})
+			res.clearCookie("authToken")
+			return res.status(200).send({ status: 'success', message: "Se realizo el cambio a PREMIUM" });
+		}else{
+			return res.status(404).send({ status: 'error', message: " El usuario no ha terminado de procesar su documentación" });
+	
+		}
 	}
 
 	res.status(404).send({ status: "error", error: "Solo permite modificar ROL USER y PREMIUM" })
+};
+
+const documentsUsers = async (req, res) => {
+
+	const id = req.params.uid
+	const file = req.file
+
+	if (!file) return res.status(400).send({ status: "error", error: "No exite archivo" })
+	
+	try {
+		const user = await usersService.findIdUser(id)
+		if (!user) return res.status(404).send({ status: "error", error: "No exite usuario" })
+
+		user.documents.push({name: file.filename, reference: `${file.path}` , category: file.fieldname})
+
+		const info = await usersService.updateUser({_id:id}, {documents : user.documents})
+		
+		res.status(200).send({ status: "success", msg: "Archivo almacenado" })
+		
+	} catch (error) {
+		res.status(404).send({ status: "error", error: `Error base de datos ${error}` })
+		logger.error(error)
+	}
+
 };
 
 export default {
@@ -139,5 +173,6 @@ export default {
 	current,
 	restorePassword,
 	restoreNewPassword,
-	rolUsersPremium
+	rolUsersPremium,
+	documentsUsers
 };

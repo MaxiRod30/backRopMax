@@ -21,6 +21,4 @@ router.post("/restorePassword", usersController.restorePassword)
 
 router.post('/restoreNewPassword',[passportCallRestore("jwtRestore")], usersController.restoreNewPassword );
 
-router.post('/premium/:uid',[passportCall("jwt")], usersController.rolUsersPremium)
-
 export default router;

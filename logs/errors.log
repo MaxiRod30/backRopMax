@@ -64,3 +64,446 @@ fatal: Error base de datos MongooseServerSelectionError: Server selection timed 
 fatal: Error base de datos Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.5linsyf.mongodb.net
 fatal: Error base de datos Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.5linsyf.mongodb.net
 fatal: Error base de datos Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.5linsyf.mongodb.net
+error: {
+  _id: new ObjectId("650c92002efbf4c6c095030d"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$UcjUrJ4c0oVQH6VRbI7agOSoc/XbVTYKap5yG0.SXxM7OKx4YUavK',
+  cart: new ObjectId("650c91ff2efbf4c6c095030b"),
+  rol: 'USER_ROLE',
+  __v: 0,
+  documents: []
+}
+error: {
+  _id: new ObjectId("652969afd9b9da17e05f8eab"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$E.B8njdTG7/6CB7MmRxxtewh8lOoxQaFYYH0L6Pt6ld/4OQtTsl6K',
+  cart: new ObjectId("652969aed9b9da17e05f8ea9"),
+  rol: 'USER_ROLE',
+  last_connection: '',
+  documents: [],
+  __v: 0
+}
+error: [object Object]
+error: {"acknowledged":false}
+error: {"acknowledged":false}
+error: {"acknowledged":false}
+error: {"_id":"652969afd9b9da17e05f8eab","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$E.B8njdTG7/6CB7MmRxxtewh8lOoxQaFYYH0L6Pt6ld/4OQtTsl6K","cart":"652969aed9b9da17e05f8ea9","rol":"USER_ROLE","last_connection":"","documents":[],"__v":0}
+error: "652969afd9b9da17e05f8eab"
+error: {"acknowledged":false}
+error: [object Object]
+error: {"fieldname":"document","originalname":"image.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/documents","filename":"1697412941380_image.jpg","path":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\1697412941380_image.jpg","size":41799}
+error: {"fieldname":"document","originalname":"image.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/documents","filename":"1697412983053_image.jpg","path":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\1697412983053_image.jpg","size":41799}
+error: {"_id":"652969afd9b9da17e05f8eab","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$E.B8njdTG7/6CB7MmRxxtewh8lOoxQaFYYH0L6Pt6ld/4OQtTsl6K","cart":"652969aed9b9da17e05f8ea9","rol":"USER_ROLE","last_connection":"Fri Oct 13 2023 13:32:53 GMT-0300 (hora estándar de Uruguay)","documents":[],"__v":0}
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+error: 1
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+error: {
+  name: '1697413762685_image.jpg',
+  reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\1697413762685_image.jpg',
+  _id: new ObjectId("652c7a82e4c0b4b6e1c29937")
+}
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+error: Error en la configuración de Multer multer is not defined {"stack":"ReferenceError: multer is not defined\n    at file:///C:/Users/maxed/OneDrive/43355-ProgramacionBackend/BackRopMax/src/middlewares/multer.middlewares.js:9:29\n    at Layer.handle [as handle_request] (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+error: 652c92a1779926cb496c30f2
+error: 652c92a1779926cb496c30f2
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: [object Object]
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: {}
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: document
+error: [object Object]
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: 652c92a1779926cb496c30f2
+error: document
+error: {}
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+error: undefined
+error: undefined
+error: undefined
+error: [object Object]
+error: [object Object]
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:52:37 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    }
+  ],
+  __v: 0
+}
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:53:27 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    }
+  ],
+  __v: 0
+}
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:54:41 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    },
+    {
+      name: '1697468097191_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697468097191_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4ec1b1c5d8295dec5573")
+    }
+  ],
+  __v: 0
+}
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:58:21 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    },
+    {
+      name: '1697468097191_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697468097191_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4ec1b1c5d8295dec5573")
+    }
+  ],
+  __v: 0
+}
+error: false
+error: false
+error: false
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 12:00:19 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    },
+    {
+      name: '1697468097191_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697468097191_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4ec1b1c5d8295dec5573")
+    }
+  ],
+  __v: 0
+}
+error: true
+error: true
+error: true

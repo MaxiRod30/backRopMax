@@ -6648,3 +6648,1695 @@ info: Base de datos online
 info: Base de datos online
 http: POST en /api/sessions/login - Thu Oct 05 2023 19:58:53 GMT-0300 (hora estándar de Uruguay)
 http: GET en /api/carts - Thu Oct 05 2023 19:58:57 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17696'
+info: Child process started with PID '11128'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 12:08:11 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/651a3a6c0ae916a29f66336b - Fri Oct 13 2023 12:10:34 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/651a3a6c0ae916a29f66336b - Fri Oct 13 2023 12:10:41 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Fri Oct 13 2023 12:10:47 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/651a3a6c0ae916a29f66336b - Fri Oct 13 2023 12:10:52 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18756'
+info: Child process started with PID '14280'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 12:55:34 GMT-0300 (hora estándar de Uruguay)
+error: {
+  _id: new ObjectId("650c92002efbf4c6c095030d"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$UcjUrJ4c0oVQH6VRbI7agOSoc/XbVTYKap5yG0.SXxM7OKx4YUavK',
+  cart: new ObjectId("650c91ff2efbf4c6c095030b"),
+  rol: 'USER_ROLE',
+  __v: 0,
+  documents: []
+}
+http: GET en / - Fri Oct 13 2023 12:56:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 12:56:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 12:56:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 12:56:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 12:56:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Fri Oct 13 2023 12:56:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Fri Oct 13 2023 12:56:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /register - Fri Oct 13 2023 12:57:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/register.js - Fri Oct 13 2023 12:57:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 12:57:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 12:57:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 12:57:55 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Fri Oct 13 2023 12:58:15 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 12:58:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 12:58:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Fri Oct 13 2023 12:58:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 12:58:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 12:58:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Fri Oct 13 2023 12:58:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Fri Oct 13 2023 12:58:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Fri Oct 13 2023 12:58:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Fri Oct 13 2023 12:58:20 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '20824'
+info: Child process started with PID '14068'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Fri Oct 13 2023 13:00:15 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Fri Oct 13 2023 13:00:16 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Fri Oct 13 2023 13:00:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Fri Oct 13 2023 13:00:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Fri Oct 13 2023 13:00:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Fri Oct 13 2023 13:00:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Fri Oct 13 2023 13:00:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Fri Oct 13 2023 13:00:17 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Fri Oct 13 2023 13:00:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 13:00:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 13:00:18 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Fri Oct 13 2023 13:00:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Fri Oct 13 2023 13:00:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Fri Oct 13 2023 13:00:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Fri Oct 13 2023 13:00:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Fri Oct 13 2023 13:00:20 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 13:00:21 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Fri Oct 13 2023 13:00:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:00:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:00:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Fri Oct 13 2023 13:00:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:00:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /register - Fri Oct 13 2023 13:00:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:00:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/register.js - Fri Oct 13 2023 13:00:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:00:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:00:25 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Fri Oct 13 2023 13:00:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Fri Oct 13 2023 13:00:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Fri Oct 13 2023 13:00:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Fri Oct 13 2023 13:00:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Fri Oct 13 2023 13:00:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Fri Oct 13 2023 13:00:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:00:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Fri Oct 13 2023 13:00:49 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Fri Oct 13 2023 13:02:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:02:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Fri Oct 13 2023 13:02:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Fri Oct 13 2023 13:02:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 13:02:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Fri Oct 13 2023 13:02:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:02:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:02:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Fri Oct 13 2023 13:02:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:02:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Fri Oct 13 2023 13:02:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Fri Oct 13 2023 13:02:35 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Fri Oct 13 2023 13:02:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 13:02:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Fri Oct 13 2023 13:02:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:02:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:02:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Fri Oct 13 2023 13:02:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:02:46 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:03:17 GMT-0300 (hora estándar de Uruguay)
+error: {
+  _id: new ObjectId("652969afd9b9da17e05f8eab"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$E.B8njdTG7/6CB7MmRxxtewh8lOoxQaFYYH0L6Pt6ld/4OQtTsl6K',
+  cart: new ObjectId("652969aed9b9da17e05f8ea9"),
+  rol: 'USER_ROLE',
+  last_connection: '',
+  documents: [],
+  __v: 0
+}
+http: GET en /products/?page=1 - Fri Oct 13 2023 13:03:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/products.js - Fri Oct 13 2023 13:03:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Fri Oct 13 2023 13:03:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Fri Oct 13 2023 13:03:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Fri Oct 13 2023 13:03:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Fri Oct 13 2023 13:03:18 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '13772'
+info: Child process started with PID '16724'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:13:39 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '20828'
+info: Child process started with PID '17216'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:19:57 GMT-0300 (hora estándar de Uruguay)
+error: [object Object]
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18892'
+info: Child process started with PID '16116'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:21:56 GMT-0300 (hora estándar de Uruguay)
+error: {"acknowledged":false}
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '14548'
+info: Conectando ...
+info: Servidor corriendo en puerto 3000
+info: Child process started with PID '18748'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:22:37 GMT-0300 (hora estándar de Uruguay)
+error: {"acknowledged":false}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '2800'
+info: Child process started with PID '16776'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:27:46 GMT-0300 (hora estándar de Uruguay)
+error: {"acknowledged":false}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17520'
+info: Child process started with PID '22872'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:29:17 GMT-0300 (hora estándar de Uruguay)
+error: {"_id":"652969afd9b9da17e05f8eab","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$E.B8njdTG7/6CB7MmRxxtewh8lOoxQaFYYH0L6Pt6ld/4OQtTsl6K","cart":"652969aed9b9da17e05f8ea9","rol":"USER_ROLE","last_connection":"","documents":[],"__v":0}
+error: "652969afd9b9da17e05f8eab"
+error: {"acknowledged":false}
+http: GET en /api/sessions/current - Fri Oct 13 2023 13:31:29 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23124'
+info: Child process started with PID '14960'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Fri Oct 13 2023 13:32:52 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23436'
+info: Child process started with PID '23056'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 18:15:12 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23664'
+info: Child process started with PID '7620'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 18:18:50 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18220'
+info: Child process started with PID '2112'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en / - Sun Oct 15 2023 18:20:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 18:20:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 18:20:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 18:20:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 18:20:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 18:20:48 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Sun Oct 15 2023 18:20:49 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 18:20:59 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Child process started with PID '23444'
+info: Child process started with PID '4236'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 18:25:15 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '13964'
+info: Child process started with PID '1844'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 18:32:40 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Sun Oct 15 2023 20:27:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 20:27:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 20:27:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 20:27:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 20:27:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 20:27:07 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23672'
+info: Child process started with PID '4884'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:34:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Sun Oct 15 2023 20:34:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 20:34:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 20:34:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 20:34:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 20:34:54 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 20:34:54 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:35:00 GMT-0300 (hora estándar de Uruguay)
+error: [object Object]
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '24424'
+info: Child process started with PID '22288'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:35:41 GMT-0300 (hora estándar de Uruguay)
+error: {"fieldname":"document","originalname":"image.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/documents","filename":"1697412941380_image.jpg","path":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\1697412941380_image.jpg","size":41799}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Child process started with PID '13968'
+info: Child process started with PID '15272'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:36:23 GMT-0300 (hora estándar de Uruguay)
+error: {"fieldname":"document","originalname":"image.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/documents","filename":"1697412983053_image.jpg","path":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\1697412983053_image.jpg","size":41799}
+error: {"_id":"652969afd9b9da17e05f8eab","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$E.B8njdTG7/6CB7MmRxxtewh8lOoxQaFYYH0L6Pt6ld/4OQtTsl6K","cart":"652969aed9b9da17e05f8ea9","rol":"USER_ROLE","last_connection":"Fri Oct 13 2023 13:32:53 GMT-0300 (hora estándar de Uruguay)","documents":[],"__v":0}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '16508'
+info: Child process started with PID '15632'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:44:50 GMT-0300 (hora estándar de Uruguay)
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17524'
+info: Child process started with PID '1696'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:48:01 GMT-0300 (hora estándar de Uruguay)
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '10536'
+info: Child process started with PID '22380'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:48:46 GMT-0300 (hora estándar de Uruguay)
+error: 1
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18756'
+info: Child process started with PID '19904'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:49:22 GMT-0300 (hora estándar de Uruguay)
+error: {
+  name: '1697413762685_image.jpg',
+  reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\1697413762685_image.jpg',
+  _id: new ObjectId("652c7a82e4c0b4b6e1c29937")
+}
+error: undefined {"kind":"embedded","path":"documents","reason":{},"stringValue":"\"1\"","value":1,"valueType":"number"}
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '1364'
+info: Child process started with PID '18144'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:50:13 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 20:50:38 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '22120'
+info: Child process started with PID '21148'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 21:00:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 21:00:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 21:00:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 21:00:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 21:00:29 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 21:01:30 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab//documents/profiles - Sun Oct 15 2023 21:01:43 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '5112'
+info: Child process started with PID '24376'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en / - Sun Oct 15 2023 21:02:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 21:02:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 21:02:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 21:02:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 21:02:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 21:02:23 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 21:02:43 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents/profiles - Sun Oct 15 2023 21:02:52 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents/products - Sun Oct 15 2023 21:03:08 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Child process started with PID '21988'
+info: Child process started with PID '19500'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents - Sun Oct 15 2023 21:13:12 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents/profiles - Sun Oct 15 2023 21:13:33 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents/products - Sun Oct 15 2023 21:13:57 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652969afd9b9da17e05f8eab/documents/products - Sun Oct 15 2023 21:34:38 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '8340'
+info: Child process started with PID '17424'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en / - Sun Oct 15 2023 22:14:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:14:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:14:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:14:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:14:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:14:38 GMT-0300 (hora estándar de Uruguay)
+http: GET en /register - Sun Oct 15 2023 22:14:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:14:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:14:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:14:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/register.js - Sun Oct 15 2023 22:14:43 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Sun Oct 15 2023 22:15:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Sun Oct 15 2023 22:15:07 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Sun Oct 15 2023 22:15:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Sun Oct 15 2023 22:15:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Sun Oct 15 2023 22:15:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Sun Oct 15 2023 22:15:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Sun Oct 15 2023 22:15:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Sun Oct 15 2023 22:15:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Sun Oct 15 2023 22:15:08 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Sun Oct 15 2023 22:15:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:15:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:15:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Sun Oct 15 2023 22:15:57 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:17:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:17:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:17:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:17:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:17:06 GMT-0300 (hora estándar de Uruguay)
+http: GET en /register - Sun Oct 15 2023 22:17:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:17:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:17:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:17:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/register.js - Sun Oct 15 2023 22:17:09 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Sun Oct 15 2023 22:17:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Sun Oct 15 2023 22:17:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Sun Oct 15 2023 22:17:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Sun Oct 15 2023 22:17:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Sun Oct 15 2023 22:17:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:17:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Sun Oct 15 2023 22:17:27 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Sun Oct 15 2023 22:17:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:17:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:17:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:17:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:17:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Sun Oct 15 2023 22:17:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Sun Oct 15 2023 22:17:29 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Sun Oct 15 2023 22:17:30 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Sun Oct 15 2023 22:17:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:17:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:17:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:17:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:17:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:17:33 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:17:33 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '16760'
+info: Child process started with PID '1248'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '7796'
+info: Child process started with PID '13768'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 22:31:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:32:00 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:32:00 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:32:00 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:32:00 GMT-0300 (hora estándar de Uruguay)
+http: GET en /register - Sun Oct 15 2023 22:32:04 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:32:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:32:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:32:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/register.js - Sun Oct 15 2023 22:32:05 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/register - Sun Oct 15 2023 22:32:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Sun Oct 15 2023 22:32:18 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Sun Oct 15 2023 22:32:19 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Sun Oct 15 2023 22:32:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:32:42 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Sun Oct 15 2023 22:32:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:32:42 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/logout - Sun Oct 15 2023 22:32:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:32:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:32:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:32:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:32:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Sun Oct 15 2023 22:32:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:32:44 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '972'
+info: Child process started with PID '7080'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 22:34:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:34:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:34:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:34:56 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:34:56 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:35:01 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:35:01 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15576'
+info: Child process started with PID '24220'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 22:36:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:36:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:36:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:36:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:36:10 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:36:16 GMT-0300 (hora estándar de Uruguay)
+error: Error en la configuración de Multer multer is not defined {"stack":"ReferenceError: multer is not defined\n    at file:///C:/Users/maxed/OneDrive/43355-ProgramacionBackend/BackRopMax/src/middlewares/multer.middlewares.js:9:29\n    at Layer.handle [as handle_request] (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '22544'
+info: Child process started with PID '25500'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 22:37:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:37:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:37:22 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:37:23 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:37:23 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:37:31 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/profiles - Sun Oct 15 2023 22:38:15 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '19068'
+info: Child process started with PID '24536'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 22:40:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:40:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:40:58 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:40:59 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:40:59 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:41:08 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '1664'
+info: Child process started with PID '23380'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 22:43:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:43:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:43:01 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:43:02 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:43:02 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:43:10 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Child process started with PID '9896'
+info: Child process started with PID '24712'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:44:15 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: [object Object]
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Child process started with PID '24176'
+info: Child process started with PID '13428'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:44:38 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '25328'
+info: Child process started with PID '6996'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:45:18 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: {}
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '20632'
+info: Child process started with PID '20108'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:46:07 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15204'
+info: Child process started with PID '2028'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:46:53 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '7236'
+info: Child process started with PID '18344'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 22:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 22:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 22:47:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 22:47:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 22:47:10 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:47:15 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Base de datos online
+info: Child process started with PID '17448'
+info: Child process started with PID '15296'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:48:26 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '3948'
+info: Base de datos online
+info: Child process started with PID '18828'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:49:47 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '21492'
+info: Child process started with PID '24356'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:50:47 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '6120'
+info: Child process started with PID '22052'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:52:31 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '21296'
+info: Child process started with PID '20696'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 22:53:04 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '272'
+info: Child process started with PID '7948'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:00:04 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '14864'
+info: Child process started with PID '19736'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 23:00:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 23:00:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 23:00:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 23:00:27 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 23:00:27 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:00:35 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17812'
+info: Child process started with PID '14528'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:01:19 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '24792'
+info: Child process started with PID '21884'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 23:02:12 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 23:02:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 23:02:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 23:02:13 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 23:02:13 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:02:19 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: document
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '2900'
+info: Child process started with PID '4280'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:06:27 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: document
+error: [object Object]
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '23476'
+info: Child process started with PID '11632'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:07:07 GMT-0300 (hora estándar de Uruguay)
+error: 652c92a1779926cb496c30f2
+error: document
+error: {}
+error: "./C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src/652c92a1779926cb496c30f2/documents/documents"
+error: {"storage":{}}
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '20916'
+info: Child process started with PID '4284'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:20:16 GMT-0300 (hora estándar de Uruguay)
+error: undefined
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '11800'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Child process started with PID '20036'
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:20:47 GMT-0300 (hora estándar de Uruguay)
+error: undefined
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18140'
+info: Child process started with PID '8648'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:31:18 GMT-0300 (hora estándar de Uruguay)
+error: undefined
+info: Conectando ...
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '6916'
+info: Child process started with PID '5748'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /login - Sun Oct 15 2023 23:39:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Sun Oct 15 2023 23:39:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Sun Oct 15 2023 23:39:25 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Sun Oct 15 2023 23:39:26 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Sun Oct 15 2023 23:39:26 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:39:32 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Sun Oct 15 2023 23:40:21 GMT-0300 (hora estándar de Uruguay)
+error: [object Object]
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '16500'
+info: Child process started with PID '23472'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '17392'
+info: Child process started with PID '10392'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en / - Mon Oct 16 2023 10:42:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 16 2023 10:42:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 10:42:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:42:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:42:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 16 2023 10:42:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Mon Oct 16 2023 10:42:36 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 10:42:51 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Mon Oct 16 2023 10:42:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Mon Oct 16 2023 10:42:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:42:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:42:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 10:42:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/products.js - Mon Oct 16 2023 10:42:52 GMT-0300 (hora estándar de Uruguay)
+http: GET en /profile - Mon Oct 16 2023 10:42:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 10:42:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:42:55 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:42:55 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/profiles - Mon Oct 16 2023 10:43:36 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Mon Oct 16 2023 10:47:04 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Mon Oct 16 2023 10:47:14 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18296'
+info: Child process started with PID '14224'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en / - Mon Oct 16 2023 10:58:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 16 2023 10:58:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 10:58:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:58:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:58:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 16 2023 10:58:35 GMT-0300 (hora estándar de Uruguay)
+http: GET en /favicon.ico - Mon Oct 16 2023 10:58:36 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 10:58:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Mon Oct 16 2023 10:58:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Mon Oct 16 2023 10:58:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:58:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 10:58:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/products.js - Mon Oct 16 2023 10:58:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:58:44 GMT-0300 (hora estándar de Uruguay)
+http: GET en /profile - Mon Oct 16 2023 10:58:45 GMT-0300 (hora estándar de Uruguay)
+error: [object Object]
+http: GET en /css/headers.css - Mon Oct 16 2023 10:58:45 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:58:45 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:58:45 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '21996'
+info: Child process started with PID '5352'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+http: GET en /profile - Mon Oct 16 2023 10:59:05 GMT-0300 (hora estándar de Uruguay)
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+http: GET en /css/headers.css - Mon Oct 16 2023 10:59:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:59:05 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:59:05 GMT-0300 (hora estándar de Uruguay)
+info: Base de datos online
+info: Base de datos online
+http: GET en /profile - Mon Oct 16 2023 10:59:14 GMT-0300 (hora estándar de Uruguay)
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+http: GET en /css/headers.css - Mon Oct 16 2023 10:59:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:59:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:59:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /profile - Mon Oct 16 2023 10:59:19 GMT-0300 (hora estándar de Uruguay)
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+http: GET en /css/headers.css - Mon Oct 16 2023 10:59:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 10:59:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 10:59:19 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '14404'
+info: Child process started with PID '1580'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /profile - Mon Oct 16 2023 11:01:46 GMT-0300 (hora estándar de Uruguay)
+error: {"user":{"_id":"652c92a1779926cb496c30f2","first_name":"Maximiliano","last_name":"Rodriguez","email":"max.edw.rod@gmail.com","age":28,"phone":98931931,"password":"$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca","cart":"652c92a1779926cb496c30f0","rol":"USER_ROLE","last_connection":"Mon Oct 16 2023 10:47:10 GMT-0300 (hora estándar de Uruguay)","documents":[{"name":"1697424021004_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg","category":"document","_id":"652ca29537cc86f432dc432a"},{"name":"1697463816218_image.jpg","reference":"C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg","category":"profile","_id":"652d3e08de82c92e6bb48560"}],"__v":0},"iat":1697464724,"exp":1697465024}
+http: GET en /css/headers.css - Mon Oct 16 2023 11:01:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:01:46 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:01:46 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/profiles - Mon Oct 16 2023 11:01:55 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/document - Mon Oct 16 2023 11:02:46 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '4268'
+info: Child process started with PID '12016'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: GET en /profile - Mon Oct 16 2023 11:12:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 16 2023 11:12:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:12:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 16 2023 11:12:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:12:37 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:12:37 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:12:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Mon Oct 16 2023 11:12:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Mon Oct 16 2023 11:12:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:12:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:12:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:12:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/products.js - Mon Oct 16 2023 11:12:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /profile - Mon Oct 16 2023 11:12:45 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:12:45 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:12:45 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:12:45 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents - Mon Oct 16 2023 11:12:55 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '18172'
+info: Child process started with PID '21992'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /profile - Mon Oct 16 2023 11:15:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:15:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:15:11 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:15:11 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/identificacion - Mon Oct 16 2023 11:15:20 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:27:09 GMT-0300 (hora estándar de Uruguay)
+http: GET en /api/sessions/current - Mon Oct 16 2023 11:27:15 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '22236'
+info: Child process started with PID '2216'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: GET en /profile - Mon Oct 16 2023 11:49:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 16 2023 11:49:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:49:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:49:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:49:14 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 16 2023 11:49:14 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:49:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Mon Oct 16 2023 11:49:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Mon Oct 16 2023 11:49:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:49:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:49:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:49:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/products.js - Mon Oct 16 2023 11:49:19 GMT-0300 (hora estándar de Uruguay)
+http: GET en /profile - Mon Oct 16 2023 11:49:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:49:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:49:21 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:49:21 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/domicilio - Mon Oct 16 2023 11:49:33 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/cuenta - Mon Oct 16 2023 11:49:41 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/products - Mon Oct 16 2023 11:50:08 GMT-0300 (hora estándar de Uruguay)
+http: GET en / - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.rtl.css - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/cardVenta.css - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/TIA17.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/carousel.css - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/ABB.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneider.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/simatic-s7-1500.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/plcabb.png - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/zelioplc.JPG - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/s71500promo.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/schneideriot.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/abbiot.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: GET en /asset/img/kar8.jpg - Mon Oct 16 2023 11:50:17 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 11:50:52 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:50:56 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 11:51:00 GMT-0300 (hora estándar de Uruguay)
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '15212'
+info: Child process started with PID '3828'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:52:36 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 11:52:43 GMT-0300 (hora estándar de Uruguay)
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:52:37 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    }
+  ],
+  __v: 0
+}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '8856'
+info: Child process started with PID '19308'
+info: Base de datos online
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:53:27 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 11:53:32 GMT-0300 (hora estándar de Uruguay)
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:53:27 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    }
+  ],
+  __v: 0
+}
+http: GET en /profile - Mon Oct 16 2023 11:54:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /login - Mon Oct 16 2023 11:54:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:54:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:54:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:54:34 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/login.js - Mon Oct 16 2023 11:54:34 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:54:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/?page=1 - Mon Oct 16 2023 11:54:41 GMT-0300 (hora estándar de Uruguay)
+http: GET en /products/css/headers.css - Mon Oct 16 2023 11:54:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:54:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/products.js - Mon Oct 16 2023 11:54:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:54:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:54:42 GMT-0300 (hora estándar de Uruguay)
+http: GET en /profile - Mon Oct 16 2023 11:54:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /css/headers.css - Mon Oct 16 2023 11:54:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/headers.js - Mon Oct 16 2023 11:54:43 GMT-0300 (hora estándar de Uruguay)
+http: GET en /js/logout.js - Mon Oct 16 2023 11:54:43 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/652c92a1779926cb496c30f2/documents/identificacion - Mon Oct 16 2023 11:54:57 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 11:55:06 GMT-0300 (hora estándar de Uruguay)
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:54:41 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    },
+    {
+      name: '1697468097191_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697468097191_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4ec1b1c5d8295dec5573")
+    }
+  ],
+  __v: 0
+}
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '9304'
+info: Child process started with PID '16364'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Mon Oct 16 2023 11:58:21 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 11:58:25 GMT-0300 (hora estándar de Uruguay)
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 11:58:21 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    },
+    {
+      name: '1697468097191_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697468097191_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4ec1b1c5d8295dec5573")
+    }
+  ],
+  __v: 0
+}
+error: false
+error: false
+error: false
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '4284'
+info: Child process started with PID '3872'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Mon Oct 16 2023 12:00:19 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 12:00:21 GMT-0300 (hora estándar de Uruguay)
+error: {
+  _id: new ObjectId("652c92a1779926cb496c30f2"),
+  first_name: 'Maximiliano',
+  last_name: 'Rodriguez',
+  email: 'max.edw.rod@gmail.com',
+  age: 28,
+  phone: 98931931,
+  password: '$2b$10$J71832tBiOzgUrikiL5AaO0TS6uqbnR.4SCf4MMCXqeEFRH8Hh0Ca',
+  cart: new ObjectId("652c92a1779926cb496c30f0"),
+  rol: 'USER_ROLE',
+  last_connection: 'Mon Oct 16 2023 12:00:19 GMT-0300 (hora estándar de Uruguay)',
+  documents: [
+    {
+      name: '1697424021004_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697424021004_image.jpg',
+      category: 'document',
+      _id: new ObjectId("652ca29537cc86f432dc432a")
+    },
+    {
+      name: '1697463816218_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697463816218_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d3e08de82c92e6bb48560")
+    },
+    {
+      name: '1697464915284_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\profiles\\1697464915284_image.jpg',
+      category: 'profile',
+      _id: new ObjectId("652d4253c9ed77bca188339f")
+    },
+    {
+      name: '1697465720944_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697465720944_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4579e33f856efd20ca82")
+    },
+    {
+      name: '1697467773228_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467773228_image.jpg',
+      category: 'domicilio',
+      _id: new ObjectId("652d4d7d5cfff77598fe2242")
+    },
+    {
+      name: '1697467782002_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697467782002_image.jpg',
+      category: 'cuenta',
+      _id: new ObjectId("652d4d865cfff77598fe224f")
+    },
+    {
+      name: '1697467808958_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\products\\1697467808958_image.jpg',
+      category: 'product',
+      _id: new ObjectId("652d4da15cfff77598fe225e")
+    },
+    {
+      name: '1697468097191_image.jpg',
+      reference: 'C:\\Users\\maxed\\OneDrive\\43355-ProgramacionBackend\\BackRopMax\\src\\documents\\documents\\1697468097191_image.jpg',
+      category: 'identificacion',
+      _id: new ObjectId("652d4ec1b1c5d8295dec5573")
+    }
+  ],
+  __v: 0
+}
+error: true
+error: true
+error: true
+info: Conectando ...
+info: Conectando ...
+info: Conectando ...
+info: Child process started with PID '19692'
+info: Base de datos online
+info: Child process started with PID '9248'
+info: Servidor corriendo en puerto 3000
+info: Servidor corriendo en puerto 3000
+info: Base de datos online
+info: Base de datos online
+http: POST en /api/sessions/login - Mon Oct 16 2023 12:01:04 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 12:01:07 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 12:01:11 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 12:01:16 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 12:01:19 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 12:02:20 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/sessions/login - Mon Oct 16 2023 12:02:23 GMT-0300 (hora estándar de Uruguay)
+http: POST en /api/users/premium/652c92a1779926cb496c30f2 - Mon Oct 16 2023 12:02:25 GMT-0300 (hora estándar de Uruguay)
