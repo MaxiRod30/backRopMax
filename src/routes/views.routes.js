@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import  {viewProfile,viewRestoreFail,viewRestorePassword,viewRestore ,viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/views.controller.js';
+import  {viewUserList,viewProfileUser,viewsFailProduct,viewProfile,viewRestoreFail,viewRestorePassword,viewRestore ,viewRegister,viewLogin,viewsGetProductsInCart,viewsGet,viewsGetRealTimeProducts,viewsGetProducts,viewChat} from '../controllers/views.controller.js';
 import { passportCallRestore , passportCallLogin} from '../helpers/helpersPassportCall.js'
 import authorization from '../middlewares/authorization.middlewares.js';
 
@@ -27,7 +27,13 @@ router.get('/restorePassword',[passportCallRestore("jwtRestore")], viewRestorePa
 
 router.get('/failRestorePassword', viewRestoreFail );
 
-router.get('/profile',[passportCallLogin("jwt")], viewProfile );
+router.get('/profile',[passportCallLogin("jwt"), authorization(["PREMIUM_ROLE", "ADMIN_ROLE"])], viewProfile );
+
+router.get('/profileUser',[passportCallLogin("jwt"), authorization(["USER_ROLE"])], viewProfileUser );
+
+router.get('/userList',[passportCallLogin("jwt"), authorization(["ADMIN_ROLE"])], viewUserList );
+
+router.get('/failproduct' , [passportCallLogin("jwt")] , viewsFailProduct);
 
 
 export default router;

@@ -15,7 +15,10 @@ const ticketSchema = new mongoose.Schema({
 	},	
     purchaser: {
         type: String,
-        required: [true, 'La correo es obligatorio']
+        required: [true, 'La comprador es obligatorio']
+    },
+    productsPurchase:{
+        type: Array
     }
 });
 

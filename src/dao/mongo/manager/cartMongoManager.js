@@ -1,5 +1,6 @@
+import logger from "../../../helpers/helpersLoggers.js";
 import cartModel from "../models/cartModels.js";
-// import {productsService} from '../../../services/index.js'
+import productModel from '../models/productModels.js'
 
 export default class CartsManager{
   constructor() {
@@ -49,7 +50,7 @@ export default class CartsManager{
   updateProductInCart = async (idCart, idProduct, quantity) => {
 
     const cartFind = await this.getCartById(idCart)
-    const productFind = await productsService.getProductsbyId(idProduct)
+    const productFind = await productModel.findById(idProduct)
 
     if (productFind.stock >= quantity) {
       cartFind.products.forEach((e) => {
@@ -71,15 +72,13 @@ export default class CartsManager{
   deleteProductCart = async (cartId, productId) => {
 
     const cartFind = await this.getCartById(cartId)
-
     const productIndex = cartFind.products.findIndex(
-      (product) => JSON.stringify(product.idproduct) == productId
+      (product) => JSON.stringify(product.idproduct) == JSON.stringify(productId)
     );
 
     if (productIndex === -1) {
       throw new Error("Product not found in cart");
     }
-
     cartFind.products.splice(productIndex, 1);
     const cart = await cartFind.save();
 

@@ -1,0 +1,20 @@
+<div class="container mt-2 mb-2">
+  <div class="d-flex justify-content-center row">
+    <div class="col-md-10">
+      <div class="row p-2 bg-white border rounded">
+        <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">CHAT</p>
+        <div>
+          <label>Escriba en el chat: </label>
+          <br/>
+          <br/>
+          <input type="text" id="chatBox" />
+        </div>
+        <p id="messageLogs"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>

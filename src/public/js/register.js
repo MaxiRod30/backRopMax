@@ -15,7 +15,27 @@ registerForm.addEventListener("submit", async (event) => {
 		if (res.status === 401) {
 			alert(`Email already exist`);
 		} else {
-			window.location.replace("/login");
+
+			Swal.fire({
+				position: 'top-end',
+				icon: 'success',
+				title: 'Se creo usuario correctamente!',
+				showConfirmButton: false,
+				timer: 1500
+			})
+
+			setTimeout(() => {
+				window.location = `/login`
+			}, "3000");
+
+
 		};
-	}).catch(err => {return `Catch error: ${err}`});
+	}).catch(err => {
+		return Swal.fire({
+			icon: 'error',
+			title: 'Error al crear usuario',
+			text: `Error ${JSON.stringify(err)}`,
+			footer: '<a href="">Consultar al administrador!</a>'
+		})
+	});
 });

@@ -44,12 +44,10 @@
                         <div class="d-flex flex-row align-items-center">
                             <h4 class="mr-1">$ {{this.price}}</h4>
                         </div>
-
                         {{#if this.stock}}
                             <h6 class="text-danger">Stock: {{this.stock}}</h6>
-
                             <div class="d-flex flex-column mt-4"><button class="btn btn-outline-primary btn-sm mt-2"
-                                    onclick={addProduct(1)} type="button">Agregar a carrito</button>
+                                    onclick={addProduct(`{{this.id}}`)} type="button">Agregar a carrito</button>
                             </div>
                         {{else}}
                             <h1 class="display-1 text-danger">¡No hay stock!</h1>

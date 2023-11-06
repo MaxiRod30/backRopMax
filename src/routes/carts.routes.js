@@ -41,7 +41,6 @@ router.put('/carts/:cid',[
 
 router.put('/carts/:cid/products/:pid',[
     passportCall("jwt"),
-    authorization("USER_ROLE"),
     check('cid','No es un ID valido').isMongoId(),
     check('pid','No es un ID valido').isMongoId(),
     check('cid').custom(idCartExist),

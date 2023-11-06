@@ -35,3 +35,35 @@
 .clicked {
   color: rgb(138, 133, 133)!important; 
 }
+
+.count-products{
+  position: absolute;
+  top: 3%;
+  right: 20%;
+
+  background-color: #000;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.count-products2{
+  position: absolute;
+  top: 3%;
+  right: 24%;
+
+  background-color: #000;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

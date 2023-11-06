@@ -2,7 +2,9 @@ import { response, request } from 'express';
 import { cartsService } from '../services/index.js';
 import { productsService } from '../services/index.js';
 import { ticketsService } from '../services/index.js';
-import  TicketDTO  from '../DTOs/Ticket.dto.js'
+import TicketDTO from '../DTOs/Ticket.dto.js'
+import logger from '../helpers/helpersLoggers.js';
+
 
 export const cartsGet = async (req = request, res = response) => {
 
@@ -42,10 +44,17 @@ export const cartsPostAddProduct = async (req = request, res = response) => {
     const { cid, pid } = req.params;
 
     try {
+        const prod = await productsService.getProductsbyId(pid)
+        if (prod.stock < 1) {
+            return res.status(200).json({
+                status: "success",
+                error: "Sin stock"
+            });
+        }
         await cartsService.addProductinCart(cid, pid)
 
         res.status(200).json({
-            status: "ok",
+            status: "success",
             msg: `post API - Producto agregado a carrito`
         });
 
@@ -64,36 +73,43 @@ export const cartsPostPurchase = async (req = request, res = response) => {
 
         const cart = await cartsService.getCartbyId(cid)
 
+        if (cart.products.length == 0) {
+            return res.status(200).json({
+                status: "ok",
+                error: "No tiene productos en el carrito"
+            });
+        }
+
         for (const product of cart.products) {
             const prod = await productsService.getProductsbyId(product.idproduct)
             if (product.quantity <= prod.stock && prod) {
                 prod.stock = prod.stock - product.quantity
                 total += prod.price * product.quantity
-                productsPurchased.push(JSON.stringify(product.idproduct))
                 updateProd = await productsService.updateproducts(product.idproduct, prod)
-                await cartsService.deleteproductCart(cid, JSON.stringify(product.idproduct))
+                const deleteCart = await cartsService.deleteproductCart(cid, product.idproduct)
+                productsPurchased.push(product)
             } else {
-                productsOutOfStock.push(product.idproduct)
+                productsOutOfStock.push(product)
             }
         }
-
-        if(productsPurchased.length != 0 ){
-            const ticketNew = new TicketDTO(total, req.user.user)
-            await ticketsService.createPurchaseTicket(ticketNew)
+        logger.info(productsPurchased)
+        if (productsPurchased.length != 0) {
+            const ticketNew = new TicketDTO(total, req.user.user, productsPurchased)
+            const ticket = await ticketsService.createPurchaseTicket(ticketNew)
         }
-        
-        res.status(200).json({
-            status: "ok",
+
+        return res.status(200).json({
+            status: "success",
             productsOutOfStock,
             productsPurchased,
             total
         });
 
+
     } catch (error) {
         return res.status(404).json({ msg: "Error en Base de datos!", error: error })
     }
 }
-
 
 export const cartsPutUpdate = async (req = request, res = response) => {
 
@@ -101,7 +117,7 @@ export const cartsPutUpdate = async (req = request, res = response) => {
     let data = req.body;
 
     try {
-        await cartsService.updatecart(cid, data)
+        const result = await cartsService.updatecart(cid, data)
 
         res.status(200).json({
             status: "ok",
@@ -109,7 +125,7 @@ export const cartsPutUpdate = async (req = request, res = response) => {
         });
 
     } catch (error) {
-        return res.status(404).json({ msg: "Error en Base de datos!", error: error })
+        return res.status(404).json({ msg: "PUT- Error en Base de datos!", error: error })
     }
 }
 

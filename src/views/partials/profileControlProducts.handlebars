@@ -1,0 +1,85 @@
+<div class="container mt-2 mb-2">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10">
+            <div class="row p-2 bg-white border rounded">
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Cree su producto</p>
+                <form id="registerForm" class="mx-1 mx-md-4">
+                    <div class=" flex-row align-items-center mb-4">
+                        <div class=" form-outline flex-fill mb-0">
+                            <h6 for="exampleFormControlInput1">Titulo:</h6>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center mb-4 w-75">
+                                <input name="title" class="form-control is-valid" id="validationServer03" type="text" placeholder="Titulo del producto"  required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <div class=" form-outline flex-fill mb-0">
+                            <h6 for="exampleFormControlInput1">Descripcion:</h6>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center mb-4 w-75">
+                                <input name="description" class="form-control is-valid" id="validationServer03" type="text" placeholder="Titulo del producto" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <div class=" form-outline flex-fill mb-0">
+                            <h6 for="exampleFormControlInput1">Categoria:</h6>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center mb-4 w-75">
+                                <input name="category" type="text" class="form-control is-valid" id="validationServer03" placeholder="Categoria del producto" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <div class=" form-outline flex-fill mb-0">
+                            <h6 for="exampleFormControlInput1">Codigo:</h6>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center mb-4 w-75">
+                                <input name="code" type="text" placeholder="Codigo del producto" class="form-control is-valid" id="validationServer03" required>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <div class=" form-outline flex-fill mb-0">
+                            <h6 for="exampleFormControlInput1">Precio:</h6>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center mb-4 w-75">
+                                <input name="price" type="number" placeholder="Precio del producto" class="form-control is-valid" id="validationServer03" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <div class=" form-outline flex-fill mb-0">
+                            <h6 for="exampleFormControlInput1">Stock:</h6>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center mb-4 w-75">
+                                <input name="stock" type="number" placeholder="Stock del producto" class="form-control is-valid" id="validationServer03" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                        <div class=" form-outline flex-fill mb-0">
+                            <h6 for="exampleFormControlInput1">Link de la foto: </h6>
+                            <br/>
+                            <div class="d-flex flex-col align-items-center mb-4 w-75">
+                                <input name="thumbnail" type="text" placeholder="Link del producto" class="form-control is-valid" id="validationServer03" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                        <button type="submit" value="Send" class="btn btn-primary btn-lg">Guardar Producto</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/profileControlProducts.js"></script>

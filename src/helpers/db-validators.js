@@ -1,11 +1,13 @@
 import { productsService } from '../services/index.js';
 import { usersService } from '../services/index.js';
 import { cartsService } from '../services/index.js';
+import logger from '../helpers/helpersLoggers.js';
 
 export const codeProductExist = async(code) =>{
-    const exitCode = await productsService.getProductsbyCode({code: code})
-   
-    if(exitCode){
+
+    const exitCode = await productsService.getProductsbyCode(code)
+
+    if(exitCode != ""){
         throw new Error( 'Este code ya esta registrado');
     }
 }

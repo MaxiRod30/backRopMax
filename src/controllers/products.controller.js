@@ -38,7 +38,7 @@ export const productsGet = async (req = request, res = response) => {
         hasPrevPage: hasPrevPage,
         hasNextPage: hasNextPage,
         prevLink: hasPrevPage? `/?page=${prevPage}`: null,
-        nextLink: hasNextPage? `/?page=${nextPage}`: null
+        nextLink: hasNextPage? `/?page=${nextPage}`: null,
      });
 
 }
@@ -50,7 +50,7 @@ export const productsGetId = async (req = request, res = response) => {
     const product = await productsService.getProductsbyId(pid);
     if (!product)
         return res.status(404).json({error: "Producto no encontrado!"});
-    return res.status(200).json({ status: "ok", data: product });
+    return res.status(200).json({ status: "success", data: product });
 }
 
 export const productsPost = async(req = request , res = response) => {
@@ -59,6 +59,7 @@ export const productsPost = async(req = request , res = response) => {
     const { user } = req.user;
     
     try {
+
         const productFound = await productsService.getProductsbyCode(code)
         if(!productFound)
             return res.status(400).json({error: "Producto repetido!"})
@@ -68,7 +69,7 @@ export const productsPost = async(req = request , res = response) => {
             description,
             code,
             price, 
-            status: status ?? true, 
+            status: true, 
             category, 
             thumbnail : thumbnail ?? "[]", 
             stock,
@@ -107,7 +108,7 @@ export const productsDelete = async (req = request , res = response) => {
 
     const pid = req.params.pid;
     const user = req.user.user
-    logger.error(JSON.stringify(user))
+
     try {    
 
         const product = await productsService.getProductsbyId(pid)

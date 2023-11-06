@@ -21,4 +21,7 @@ router.post('/:uid/documents/profiles', documentsProfile.single('profile'), user
 
 router.post('/:uid/documents/products', documentsProduct.single('product'), usersController.documentsUsers)
 
+router.get('/',[passportCall("jwt")], usersController.getUsers)
+
+
 export default router;

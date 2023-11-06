@@ -1,0 +1,19 @@
+<head>
+    <link href="../css/headers.css" type="text/css" rel="stylesheet">
+</head>
+
+<div class="home-container">
+    <h1 class="home-title d-flex justify-content-center">Bienvenido {{{user.first_name}}}!</h1>
+    <h6 class="home-title d-flex justify-content-center">{{user.rol}}</h6>
+    <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+
+        </div>
+    </div>
+
+        {{> profileInfo}}
+
+
+</div>
+
+<script src="/js/profile.js"></script>

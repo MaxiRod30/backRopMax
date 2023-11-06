@@ -27,7 +27,6 @@ router.post('/',[
     check('code').custom(codeProductExist),
     check('price','La price es obligatorio').not().isEmpty(),
     check('price','La price tiene que ser numerico').isInt(),
-    check('status','La status es obligatorio').not().isEmpty(),
     check('category','La category es obligatorio').not().isEmpty(),
     check('thumbnail','La thumbnail es obligatorio').not().isEmpty(),
     check('stock','La stock es obligatorio').not().isEmpty(),

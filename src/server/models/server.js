@@ -1,6 +1,7 @@
 import express from 'express';
 import router from "../../routes/index.js";
 import handlebars from "express-handlebars";
+import Handlebars from 'handlebars';
 import __dirname from "../../util.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
@@ -84,12 +85,15 @@ export default class MyServer {
     }
 
     handlebars() {
-
+        Handlebars.registerHelper('ifEqual', (a, b, options) => {
+            return a === b ? options.fn(this) : options.inverse(this);
+        });
+        
         this.app.engine("handlebars", handlebars.engine());
         this.app.set("views", __dirname + "/views");
         this.app.set("view engine", "handlebars");
         this.app.use(express.static(__dirname + "/public"));
-
+       
     }
 
     middlewares() {

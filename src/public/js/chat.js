@@ -2,19 +2,29 @@ const socket = io();
 let user;
 let chatBox = document.getElementById("chatBox");
 let boton = document.getElementById("actualizar")
-Swal.fire({
-  title: "Por favor ingresá tu nombre",
-  input: "text",
-  text: "Nombre",
-  inputValidator: (value) => {
-    if (!value) {
-      return "El nombre no debe estar vacío";
-    }
+
+fetch(`/api/sessions/current`, {
+  method: "GET",
+  headers: {
+    "Content-Type": "application/json",
   },
-  allowOutsideClick: false,
-}).then((result) => {
-  user = result.value;
-});
+})
+  .then(res => res.ok ? res.json() : Promise.reject(res))
+  .then(data => {
+    user = data.first_name
+  })
+  .catch(error => {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Error al logiarse!',
+      footer: `<a href="/login">LOGIN!</a>`
+    })
+    return setTimeout(() => {
+      window.location = `/faillogin`
+    }, "2000");
+  })
+
 
 chatBox.addEventListener("keyup", (e) => {
   if (e.key === "Enter") {

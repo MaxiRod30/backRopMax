@@ -164,6 +164,19 @@ const documentsUsers = async (req, res) => {
 
 };
 
+const getUsers = async(req, res) => {
+	try {
+		const sendUsers = []
+		const users = await usersService.getAllUsers()
+		users.forEach(e => {
+			sendUsers.push(new UserDTO(e))
+		});
+		return res.status(200).send({ status: "success", users : sendUsers})
+	} catch (error) {
+		return res.status(404).send({ status: "error", error: error})
+	}
+};
+
 export default {
 	login,
 	register,
@@ -174,5 +187,6 @@ export default {
 	restorePassword,
 	restoreNewPassword,
 	rolUsersPremium,
-	documentsUsers
+	documentsUsers,
+	getUsers
 };

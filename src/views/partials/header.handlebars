@@ -25,39 +25,63 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/cart" class="nav-link text-white" id="cart">
-                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                <use xlink:href="#table" />
-                            </svg>
-                            Carrito
-                        </a>
+                        <div>
+                            <a href="/cart" class="nav-link text-white" id="cart">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#carrito" />
+                                </svg>
+                                
+                                <span {{#ifEqual user.rol "ADMIN_ROLE"}}class="count-products2" {{/ifEqual}} class="count-products" >{{{cantidadCarrito}}}</span>
+                                
+                                Carrito
+                            </a>
+                        </div>
                     </li>
                     <li>
-                        <a href="/chat" class="nav-link text-white" id="chat">
-                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                <use xlink:href="#people-circle" />
-                            </svg>
-                            Chat
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="/realTimeProducts" class="nav-link text-white" id="realTimeProducts">
-                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                <use xlink:href="#speedometer2" />
-                            </svg>
-                            RealTimeProducts
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/profile" class="nav-link text-white" id="chat">
+                        {{#ifEqual user.rol "ADMIN_ROLE"}}
+                        <a href="/profile?view=info" class="nav-link text-white" id="chat">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#people-circle" />
                             </svg>
                             Profile
                         </a>
+                        {{/ifEqual}}
+                        {{#ifEqual user.rol "PREMIUM_ROLE"}}
+                        <a href="/profile?view=info" class="nav-link text-white" id="chat">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#people-circle" />
+                            </svg>
+                            Profile
+                        </a>
+                        {{/ifEqual}}
+                        {{#ifEqual user.rol "USER_ROLE"}}
+                        <a href="/profileUser" class="nav-link text-white" id="chat">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#people-circle" />
+                            </svg>
+                            Profile
+                        </a>
+                        {{/ifEqual}}
 
+                        {{#ifEqual user.rol undefined}}
+                        <a href="/profileUser" class="nav-link text-white" id="chat">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                <use xlink:href="#people-circle" />
+                            </svg>
+                            Profile
+                        </a>
+                        {{/ifEqual}}
                     </li>
+                    {{#ifEqual user.rol "ADMIN_ROLE"}}
+                        <li>
+                            <a href="/userList" class="nav-link text-white" id="chat">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#speedometer2" />
+                                </svg>
+                                List
+                            </a>
+                        </li>
+                    {{/ifEqual}}
                     <li>
                         <a id="btn_logout" href="/login" class="nav-link text-white">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
@@ -66,6 +90,7 @@
                             Logout
                         </a>
                     </li>
+
                 </ul>
             </div>
         </div>
